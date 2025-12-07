@@ -1,0 +1,73 @@
+PMID- 38699206
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20240504
+IS  - 2376-5992 (Electronic)
+IS  - 2376-5992 (Linking)
+VI  - 10
+DP  - 2024
+TI  - A systematic review on diabetic retinopathy detection and classification based on 
+      deep learning techniques using fundus images.
+PG  - e1947
+LID - 10.7717/peerj-cs.1947 [doi]
+LID - e1947
+AB  - Diabetic retinopathy (DR) is the leading cause of visual impairment globally. It 
+      occurs due to long-term diabetes with fluctuating blood glucose levels. It has 
+      become a significant concern for people in the working age group as it can lead 
+      to vision loss in the future. Manual examination of fundus images is 
+      time-consuming and requires much effort and expertise to determine the severity 
+      of the retinopathy. To diagnose and evaluate the disease, deep learning-based 
+      technologies have been used, which analyze blood vessels, microaneurysms, 
+      exudates, macula, optic discs, and hemorrhages also used for initial detection 
+      and grading of DR. This study examines the fundamentals of diabetes, its 
+      prevalence, complications, and treatment strategies that use artificial 
+      intelligence methods such as machine learning (ML), deep learning (DL), and 
+      federated learning (FL). The research covers future studies, performance 
+      assessments, biomarkers, screening methods, and current datasets. Various neural 
+      network designs, including recurrent neural networks (RNNs), generative 
+      adversarial networks (GANs), and applications of ML, DL, and FL in the processing 
+      of fundus images, such as convolutional neural networks (CNNs) and their 
+      variations, are thoroughly examined. The potential research methods, such as 
+      developing DL models and incorporating heterogeneous data sources, are also 
+      outlined. Finally, the challenges and future directions of this research are 
+      discussed.
+CI  - ©2024 Bhulakshmi and Rajput.
+FAU - Bhulakshmi, Dasari
+AU  - Bhulakshmi D
+AD  - School of Computer Science Engineering and Information Systems, Vellore Institute 
+      of Technology, Vellore, Tamil Nadu, India.
+FAU - Rajput, Dharmendra Singh
+AU  - Rajput DS
+AD  - School of Computer Science Engineering and Information Systems, Vellore Institute 
+      of Technology, Vellore, Tamil Nadu, India.
+LA  - eng
+PT  - Journal Article
+DEP - 20240429
+PL  - United States
+TA  - PeerJ Comput Sci
+JT  - PeerJ. Computer science
+JID - 101660598
+PMC - PMC11065411
+OTO - NOTNLM
+OT  - Convolutional neural networks
+OT  - DL
+OT  - DR
+OT  - Fundus image
+OT  - Generative adversarial networks
+OT  - Recurrent neural networks
+COIS- The authors declare there are no competing interests.
+EDAT- 2024/05/03 06:43
+MHDA- 2024/05/03 06:44
+PMCR- 2024/04/29
+CRDT- 2024/05/03 03:50
+PHST- 2023/11/15 00:00 [received]
+PHST- 2024/02/28 00:00 [accepted]
+PHST- 2024/05/03 06:44 [medline]
+PHST- 2024/05/03 06:43 [pubmed]
+PHST- 2024/05/03 03:50 [entrez]
+PHST- 2024/04/29 00:00 [pmc-release]
+AID - cs-1947 [pii]
+AID - 10.7717/peerj-cs.1947 [doi]
+PST - epublish
+SO  - PeerJ Comput Sci. 2024 Apr 29;10:e1947. doi: 10.7717/peerj-cs.1947. eCollection 
+      2024.

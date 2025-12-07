@@ -1,0 +1,1462 @@
+TY  - JOUR
+T1  - Enhancing Early Detection of Diabetic Retinopathy Through the Integration of Deep Learning Models and Explainable Artificial Intelligence
+A1  - Alavee, K Ahnaf
+A1  - Hasan, Mehedi
+A1  - Zillanee, A Hasnayen
+A1  - Mostakim, Moin
+A1  - Uddin, Jia
+A1  - Alvarado, E Silva
+A1  - Diez, I de la Torre
+A1  - Ashraf, Imran
+A1  - Samad, M Abdus
+A1  - Ahnaf Alavee, Kazi
+A1  - Hasan, Mehedi
+A1  - Hasnayen Zillanee, Abu
+A1  - Mostakim, Moin
+A1  - Uddin, Jia
+A1  - Silva Alvarado, Eduardo
+A1  - De La Torre Diez, Isabel
+A1  - Ashraf, Imran
+A1  - Abdus Samad, Md
+A1  - Alavee, K Ahnaf
+A1  - Hasan, Mehedi
+A1  - Zillanee, A Hasnayen
+A1  - Mostakim, Moin
+A1  - Uddin, Jia
+A1  - Alvarado, E Silva
+A1  - Diez, I de la Torre
+A1  - Ashraf, Imran
+A1  - Samad, M Abdus
+Y1  - 2024///
+KW  - Biological system modeling
+KW  - CNN
+KW  - Computational modeling
+KW  - Deep learning
+KW  - Diabetic retinopathy
+KW  - Diseases
+KW  - Grad-CAM
+KW  - Retina
+KW  - Support vector machines
+KW  - Xception
+KW  - inception
+KW  - transfer learning
+PB  - Institute of Electrical and Electronics Engineers Inc.
+JF  - IEEE Access
+VL  - 12
+SP  - 73950
+EP  - 73969
+DO  - 10.1109/ACCESS.2024.3405570
+UR  - https://ieeexplore.ieee.org/document/10539012
+N2  - Humans can carry various diseases, some of which are poorly understood and lack comprehensive solutions. Such a disease can exists in human eye that can affect one or both eyes is diabetic retinopathy (DR) which can impair function, vision, and eventually result in permanent blindness. It is one of those complex complexities. Therefore, early detection of DR can significantly reduce the risk of vision impairment by appropriate treatment and necessary precautions. The primary aim of this study is to leverage cutting-edge models trained on diverse image datasets and propose a CNN model that demonstrates comparable performance. Specifically, we employ transfer learning models such as DenseNet121, Xception, Resnet50, VGG16, VGG19, and InceptionV3, and machine learning models such as SVM, and neural network models like (RNN) for binary and multi-class classification. It has been shown that the proposed approach of multi-label classification with softmax functions and categorical cross-entropy works more effectively, yielding perfect accuracy, precision, and recall values. In particular, Xception achieved an impressive 82% accuracy among all the transfer learning models, setting a new benchmark for the dataset used. However, our proposed CNN model shows superior performance, achieving an accuracy of 95.27% on this dataset, surpassing the state-of-the-art Xception model. Moreover, for single-label (binary classifications), our proposed model achieved perfect accuracy as well. Through exploration of these advances, our objective is to provide a comprehensive overview of the leading methods for the early detection of DR. The aim is to discuss the challenges associated with these methods and highlight potential enhancements. In essence, this paper provides a high-level perspective on the integration of deep learning techniques and machine learning models, coupled with explainable artificial intelligence (XAI) and gradient-weighted class activation mapping (Grad-CAM). We present insights into their respective accuracy and the challenges they face. We anticipate that these insights will prove valuable to researchers and practitioners in the field. Our ambition is that this in-depth study and comparison of models will inform and inspire future research endeavors, ultimately leading to enhanced disease detection in medical imaging and thereby assisting healthcare professionals.
+ER  - 
+TY  - JOUR
+T1  - A privacy-enhanced framework for collaborative Big Data analysis in healthcare using adaptive federated learning aggregation
+A1  - Haripriya, Rahul
+A1  - Khare, Nilay
+A1  - Pandey, Manish
+A1  - Biswas, Sreemoyee
+Y1  - 2025/12//
+KW  - Artificial intelligence
+KW  - Big Data
+KW  - Data privacy
+KW  - Deep learning
+KW  - Federated learning
+KW  - Image classification
+KW  - Machine learning
+KW  - Transfer learning
+PB  - Springer Nature
+JF  - Journal of Big Data
+VL  - 12
+IS  - 1
+DO  - 10.1186/S40537-025-01169-8
+N2  - The exponential growth of Big Data in healthcare, particularly in AI-driven medical diagnostics, has raised critical concerns about data privacy in medical image classification. With over 30% of healthcare organizations worldwide experiencing data breaches in the past year, the demand for secure, privacy-preserving solutions is more urgent than ever. This study explores a federated learning approach combined with transfer learning to enhance privacy in medical image classification using ResNet and VGG16 architectures. Pre-trained on ImageNet and fine tuned on three specialized medical datasets TB chest X-rays, brain tumor MRI scans, and diabetic retinopathy images these models were deployed in a simulated multi-center healthcare environment. A major contribution of this work is the development of an adaptive aggregation methodology, which dynamically selects between Federated Averaging (FedAvg) and Federated Stochastic Gradient Descent (FedSGD) based on real-time data divergence observed across participating clients. Unlike conventional static aggregation methods, which uniformly apply the same update rule regardless of data heterogeneity, the proposed adaptive approach monitors gradients and data distributions at each communication round and selects the most suitable aggregation method dynamically. This adaptive strategy not only improves convergence but also optimizes resource utilization, making it suitable for multi-center healthcare networks where data heterogeneity is prevalent. The novelty of the proposed adaptive aggregation lies in its ability to maintain robust performance while minimizing computational costs, making it feasible for large-scale healthcare AI networks, such as hospital federated learning systems. Comparative analysis with baseline FL models, including FedAvg and FedSGD, shows that the adaptive aggregation method achieves comparable accuracy (up to 96.3%) while significantly reducing execution time by approximately 20% and maintaining a competitive F1-score. Additionally, the integration of privacy-preserving techniques ensures that sensitive patient data remains secure throughout the learning process. By integrating transfer learning with federated learning, this study presents a scalable and privacy-preserving framework for Big Data analytics in healthcare. The findings underscore the potential of adaptive aggregation to enhance federated learning efficiency across heterogeneous datasets, enabling medical institutions to develop high-accuracy diagnostic models without direct access to patient data.
+ER  - 
+TY  - JOUR
+T1  - Scalogram based performance comparison of deep learning architectures for dysarthric speech detection
+A1  - Shabber, Shaik Mulla
+A1  - Sumesh, E. P.
+A1  - Ramachandran, Vidhya Lavanya
+Y1  - 2025/05//
+KW  - CNN
+KW  - Deep learning
+KW  - Dysartrhic speech
+KW  - Scalogram
+KW  - Wavelet transformation
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 58
+IS  - 5
+DO  - 10.1007/S10462-024-11085-7
+N2  - Dysarthria, a speech disorder commonly associated with neurological conditions, poses challenges in early detection and accurate diagnosis. This study addresses these challenges by implementing preprocessing steps, such as noise reduction and normalization, to enhance the quality of raw speech signals and extract relevant features. Scalogram images generated through wavelet transform effectively capture the time-frequency characteristics of the speech signal, offering a visual representation of the spectral content over time and providing valuable insights into speech abnormalities related to dysarthria. Fine-tuned deep learning models, including pre-trained convolutional neural network (CNN) architectures like VGG19, DenseNet-121, Xception, and a modified InceptionV3, were optimized with specific hyperparameters using training and validation sets. Transfer learning enables these models to adapt features from general image classification tasks to classify dysarthric speech signals better. The study evaluates the models using two public datasets TORGO and UA-Speech and a third dataset collected by the authors and verified by medical practitioners. The results reveal that the CNN models achieve an accuracy (acc) range of 90% to 99%, an F1-score range of 0.95 to 0.99, and a recall range of 0.96 to 0.99, outperforming traditional methods in dysarthria detection. These findings highlight the effectiveness of the proposed approach, leveraging deep learning and scalogram images to advance early diagnosis and healthcare outcomes for individuals with dysarthria.
+ER  - 
+TY  - JOUR
+T1  - A Low Complexity Efficient Deep Learning Model for Automated Retinal Disease Diagnosis
+A1  - Chowa, Sadia Sultana
+A1  - Bhuiyan, Md Rahad Islam
+A1  - Payel, Israt Jahan
+A1  - Karim, Asif
+A1  - Khan, Inam Ullah
+A1  - Montaha, Sidratul
+A1  - Hasan, Md Zahid
+A1  - Jonkman, Mirjam
+A1  - Azam, Sami
+Y1  - 2025/03//
+KW  - Ablation studies
+KW  - Compact convolutional transformer (CCT)
+KW  - Generative adversarial network (GAN)
+KW  - Optical coherence tomography (OCT)
+KW  - Retinal disease
+KW  - Transformer model
+PB  - Springer Science and Business Media Deutschland GmbH
+JF  - Journal of Healthcare Informatics Research
+VL  - 9
+IS  - 1
+SP  - 1
+EP  - 40
+DO  - 10.1007/S41666-024-00182-5
+N2  - The identification and early treatment of retinal disease can help to prevent loss of vision. Early diagnosis allows a greater range of treatment options and results in better outcomes. Optical coherence tomography (OCT) is a technology used by ophthalmologists to detect and diagnose certain eye conditions. In this paper, human retinal OCT images are classified into four classes using deep learning. Several image preprocessing techniques are employed to enhance the image quality. An augmentation technique, called generative adversarial network (GAN), is utilized in the Drusen and DME classes to address data imbalance issues, resulting in a total of 130,649 images. A lightweight optimized compact convolutional transformers (OCCT) model is developed by conducting an ablation study on the initial CCT model for categorizing retinal conditions. The proposed OCCT model is compared with two transformer-based models: vision Transformer (ViT) and Swin Transformer. The models are trained and evaluated with 32 × 32 sized images of the GAN-generated enhanced dataset. Additionally, eight transfer learning models are presented with the same input images to compare their performance with the OCCT model. The proposed model’s stability is assessed by decreasing the number of training images and evaluating the performance. The OCCT model’s accuracy is 97.09%, and it outperforms the two transformer models. The result further indicates that the OCCT model sustains its performance, even if the number of images is reduced.
+ER  - 
+TY  - JOUR
+T1  - Analysis of deep learning algorithm for predicting poultry diseases
+A1  - Babatunde, Abdulrauph O.
+A1  - Oladipo, Idowu D.
+A1  - Ajagbe, Sunday Adeola
+A1  - Akanmu, Morenikeji Alex
+A1  - Akinpelu, Samson Adebisi
+A1  - Bankale, Mojisola I.
+A1  - Muritala, Ismaila
+A1  - Mudali, Pragasen
+Y1  - 2025/11//
+JF  - Discover Data
+VL  - 3
+IS  - 1
+SP  - 44
+EP  - 44
+DO  - 10.1007/S44248-025-00078-8
+UR  - https://link.springer.com/10.1007/s44248-025-00078-8
+ER  - 
+TY  - JOUR
+T1  - DiabSense: early diagnosis of non-insulin-dependent diabetes mellitus using smartphone-based human activity recognition and diabetic retinopathy analysis with Graph Neural Network
+A1  - Alam, Md Nuho Ul
+A1  - Hasnine, Ibrahim
+A1  - Bahadur, Erfanul Hoque
+A1  - Masum, Abdul Kadar Muhammad
+A1  - Urbano, Mercedes Briones
+A1  - Vergara, Manuel Masias
+A1  - Uddin, Jia
+A1  - Ashraf, Imran
+A1  - Samad, Md Abdus
+Y1  - 2024/12//
+KW  - Diabetes
+KW  - Diabetic retinopathy
+KW  - Graph Neural Network
+KW  - Human activity recognition
+KW  - NIDDM
+PB  - Springer Nature
+JF  - Journal of Big Data
+VL  - 11
+IS  - 1
+DO  - 10.1186/S40537-024-00959-W
+N2  - Non-Insulin-Dependent Diabetes Mellitus (NIDDM) is a chronic health condition caused by high blood sugar levels, and if not treated early, it can lead to serious complications i.e. blindness. Human Activity Recognition (HAR) offers potential for early NIDDM diagnosis, emerging as a key application for HAR technology. This research introduces DiabSense, a state-of-the-art smartphone-dependent system for early staging of NIDDM. DiabSense incorporates HAR and Diabetic Retinopathy (DR) upon leveraging the power of two different Graph Neural Networks (GNN). HAR uses a comprehensive array of 23 human activities resembling Diabetes symptoms, and DR is a prevalent complication of NIDDM. Graph Attention Network (GAT) in HAR achieved 98.32% accuracy on sensor data, while Graph Convolutional Network (GCN) in the Aptos 2019 dataset scored 84.48%, surpassing other state-of-the-art models. The trained GCN analyzed retinal images of four experimental human subjects for DR report generation, and GAT generated their average duration of daily activities over 30 days. The daily activities in non-diabetic periods of diabetic patients were measured and compared with the daily activities of the experimental subjects, which helped generate risk factors. Fusing risk factors with DR conditions enabled early diagnosis recommendations for the experimental subjects despite the absence of any apparent symptoms. The comparison of DiabSense system outcome with clinical diagnosis reports in the experimental subjects was conducted using the A1C test. The test results confirmed the accurate assessment of early diagnosis requirements for experimental subjects by the system. Overall, DiabSense exhibits significant potential for ensuring early NIDDM treatment, improving millions of lives worldwide.
+ER  - 
+TY  - JOUR
+T1  - Detection and diabetic retinopathy grading using digital retinal images
+A1  - Malhi, Avleen
+A1  - Grewal, Reaya
+A1  - Pannu, Husanbir Singh
+Y1  - 2023/06//
+KW  - Diabetic retinopathy
+KW  - Exudates
+KW  - Image processing
+KW  - Machine learning
+KW  - Microaneurysms
+PB  - Springer
+JF  - International Journal of Intelligent Robotics and Applications
+VL  - 7
+IS  - 2
+SP  - 426
+EP  - 458
+DO  - 10.1007/S41315-022-00269-5
+N2  - Diabetic Retinopathy is an eye disorder that affects people suffering from diabetes. Higher sugar levels in blood leads to damage of blood vessels in eyes and may even cause blindness. Diabetic retinopathy is identified by red spots known as microanuerysms and bright yellow lesions called exudates. It has been observed that early detection of exudates and microaneurysms may save the patient’s vision and this paper proposes a simple and effective technique for diabetic retinopathy. Both publicly available and real time datasets of colored images captured by fundus camera have been used for the empirical analysis. In the proposed work, grading has been done to know the severity of diabetic retinopathy i.e. whether it is mild, moderate or severe using exudates and micro aneurysms in the fundus images. An automated approach that uses image processing, features extraction and machine learning models to predict accurately the presence of the exudates and micro aneurysms which can be used for grading has been proposed. The research is carried out in two segments; one for exudates and another for micro aneurysms. The grading via exudates is done based upon their distance from macula whereas grading via micro aneurysms is done by calculating their count. For grading using exudates, support vector machine and K-Nearest neighbor show the highest accuracy of 92.1% and for grading using micro aneurysms, decision tree shows the highest accuracy of 99.9% in prediction of severity levels of the disease.
+ER  - 
+TY  - JOUR
+T1  - An efficient automatic diabetic retinopathy grading using a two-way cascaded convolution neural network
+A1  - Kavitha, N. S.
+A1  - Kasthuri, N.
+Y1  - 2025/12//
+KW  - Convolution neural network
+KW  - Diabetic retinopathy
+KW  - Feature map
+KW  - Hand-crafted features
+KW  - Pooling layer
+PB  - Springer Science and Business Media B.V.
+JF  - Discover Computing
+VL  - 28
+IS  - 1
+DO  - 10.1007/S10791-024-09486-X
+N2  - High blood sugar levels lead to an eye disease called diabetic retinopathy. This disease causes vision loss from adults to children. Early detection and proper treatment can reduce vision loss. This research suggests computer-aided diagnosis-based early detection of diabetic retinopathy. The main goal of this study is to automatically detect non-proliferative diabetic retinopathy in any retinal imaging. The proposed model consists of two main stages namely, pre-processing and classification. The first stage is to collect the images from the dataset, after which they are pre-processed using the techniques of image enhancement, noise removal, blurring effects, etc. For classification, a two-way cascaded convolution neural network is developed. To improve the effectiveness of the classifier, the handcrafted features are extracted from the image and fused with the proposed classifier. The suggested system divides images of diabetic retinopathy into four categories such as none, mild, moderate, and severe diabetic retinopathy. The effectiveness of the suggested technique is evaluated using a variety of criteria. The diagnostic efficacy of the proposed model is demonstrated through a comparative analysis with state-of-the-art methodologies, showcasing its performance against established approaches.
+ER  - 
+TY  - JOUR
+T1  - Deep learning model using classification for diabetic retinopathy detection: an overview
+A1  - Muthusamy, Dharmalingam
+A1  - Palani, Parimala
+Y1  - 2024/07//
+KW  - Concordance Correlative Regression
+KW  - Deep Multilayer Perceptive Learning Classification
+KW  - Diabetic Retinopathy detection
+KW  - ROI extraction
+KW  - Swish activation function
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 57
+IS  - 7
+DO  - 10.1007/S10462-024-10806-2
+N2  - Early detection of diabetic retinopathy is a serious disease for diabetics to minimize their sightlessness risks. The different approaches take a much longer time for a very large training dataset. In classifying to better the accuracy of diabetic retinopathy, a novel technique called MAP Concordance Regressive Camargo’s Index-Based Deep Multilayer Perceptive Learning Classification (MAPCRCI-DMPLC) has been introduced with minimum time consumption. The novel model of MAPCRCI-DMPLC comprises the input layer, hidden layers, and output layer for detecting diabetic retinopathy at an early stage through high accuracy and less moment consumption. The proposed MAPCRCI-DMPLC model collected the retinal fundus images from the dataset as input. After that, we carried out image preprocessing using the MAP-estimated local region filtering-based preprocessing technique in the first hidden layer. In the second hidden layer, Camargo’s index-based ROI extraction is performed to identify the infected region. Then, Concordance Correlative Regression is applied for texture feature extraction. Then the color feature is extracted, beginning the image. The features extracted to the output layer to classify the different levels of DR using the swish activation function through higher accuracy. An investigational assessment using a retinal image dataset on factors such as peak signal-to-noise ratio (PSNR), disease detection accuracy (DDA), false-positive rate (FPR), and disease detection time (DDT), regarding the quantity of retinal fundus images and image dimension. The quantitative and qualitatively analyzed outcome shows a better presentation of our proposed MAPCRCI-DMPLC technique when compared through the five state-of-the-art approaches.
+ER  - 
+TY  - JOUR
+T1  - DR-RetinaNet: A Deep Learning Approach for Early Screening of Diabetic Retinopathy
+A1  - Yasmin, Samia
+A1  - Hasan, Mehedi
+A1  - Jahan, Fariha
+A1  - Mridha, M. F.
+Y1  - 2025///
+KW  - DR-RetinaNet
+KW  - DenseNet201
+KW  - Diabetic retinopathy
+KW  - Disease classification
+KW  - Medical image analysis
+PB  - Springer Nature
+JF  - Human-Centric Intelligent Systems
+DO  - 10.1007/S44230-025-00114-5
+N2  - Diabetic Retinopathy (DR) is an eye disorder in patients with diabetes that occurs when high blood sugar damages the retina, the light-sensitive tissue of the eye. It is becoming increasingly common, and the condition worsens when not detected early. This study investigates five major classes of DR and analyzes several existing works, implementing 19 state-of-the-art models. However, in our experiments, these models did not achieve satisfactory performance on the chosen dataset, with validation accuracies remaining below 80%. As a result, we propose DR-RetinaNet, a model based on the DenseNet201 architecture, modified through selective freezing of early convolutional layers, freezing of batch normalization layers to stabilize training, and fine-tuning of deeper layers for DR-specific feature extraction. These customizations reduce training time, improve stability, and enhance task-specific learning, making the model more effective. Additionally, the dataset used in this study was preprocessed to optimize it for DR-RetinaNet. With the preprocessed dataset, DR-RetinaNet achieved impressive training and validation accuracies of 99% and 94%, respectively. By offering a practical method for the early detection of DR, this research contributes to efforts in improving disease detection, particularly eye disorders, which will benefit the medical sector and individuals with diabetic retinopathy.
+ER  - 
+TY  - JOUR
+T1  - Computationally efficient deep learning models for diabetic retinopathy detection: a systematic literature review
+A1  - Haq, Nazeef Ul
+A1  - Waheed, Talha
+A1  - Ishaq, Kashif
+A1  - Hassan, Muhammad Awais
+A1  - Safie, Nurhizam
+A1  - Elias, Nur Fazidah
+A1  - Shoaib, Muhammad
+Y1  - 2024/11//
+KW  - Computational complexity
+KW  - Deep learning
+KW  - Diabetic retinopathy
+KW  - Vision transformers
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 57
+IS  - 11
+DO  - 10.1007/S10462-024-10942-9
+N2  - Diabetic retinopathy, often resulting from conditions like diabetes and hypertension, is a leading cause of blindness globally. With diabetes affecting millions worldwide and anticipated to rise significantly, early detection becomes paramount. The survey scrutinizes existing literature, revealing a noticeable absence of consideration for computational complexity aspects in deep learning models. Notably, most researchers concentrate on employing deep learning models, and there is a lack of comprehensive surveys on the role of vision transformers in enhancing the efficiency of these models for DR detection. This study stands out by presenting a systematic review, exclusively considering 84 papers published in reputable academic journals to ensure a focus on mature research. The distinctive feature of this Systematic Literature Review (SLR) lies in its thorough investigation of computationally efficient approaches and models for DR detection. It sheds light on the incorporation of vision transformers into deep learning models, highlighting their significant contribution to improving accuracy. Moreover, the research outlines clear objectives related to the identified problem, giving rise to specific research questions. Following an assessment of relevant literature, data is extracted from digital archives. Additionally, in light of the results obtained from this SLR, a taxonomy for the detection of diabetic retinopathy has been presented. The study also highlights key research challenges and proposes potential avenues for further investigation in the field of detecting diabetic retinopathy.
+ER  - 
+TY  - JOUR
+T1  - Synthesizing Retinal Images using End-To-End VAEs-GAN Pipeline-Based Sharpening and Varying Layer
+A1  - Saeed, Ali Q.
+A1  - Sheikh Abdullah, Siti Norul Huda
+A1  - Che-Hamzah, Jemaima
+A1  - Abdul Ghani, Ahmad Tarmizi
+A1  - Abu-ain, Waleed Abdel karim
+Y1  - 2024/01//
+KW  - Deep learning
+KW  - Generative Adversarial Networks
+KW  - Image synthesis
+KW  - Retinal fundus image
+KW  - Variational Autoencoder
+PB  - Springer
+JF  - Multimedia Tools and Applications
+VL  - 83
+IS  - 1
+SP  - 1283
+EP  - 1307
+DO  - 10.1007/S11042-023-17058-2
+N2  - This study attempts to synthesize a realistic-looking fundus image from a morphologically changed vessel structure using the newly proposed sharpening and varying vessels technique (SVV). This technique sharpens the reconstructed vessels and introduces variation to their structure to generate multiple images from a single input mask. This helps to reduce the reliance on expensive and scarce annotated medical data. The study also aims to overcome the limitations of current methods, such as unrealistic optic disc boundaries, extreme vessel tortuosity, and missed optic discs. This is mainly due to the fact that existing models penalize their weights based on the difference between real and synthetic images using only a single mask. Therefore, their emphasis is on generating the input mask while disregarding other important fundoscopic features. Inspired by the recent progress in Generative Adversarial Nets (GANs) and Variational Autoencoder (VAE), the proposed approach was able to preserve the geometrical shape of critical fundus characteristics. Visual and quantitative results indicate that the produced images are considerably distinct from the ones used for training. However, they also exhibit anatomical coherence and a reasonable level of visual. The data utilized in this study and the programming code necessary to recreate the experiment can be accessed at https://github.com/AliSaeed86/SVV_GAN .
+ER  - 
+TY  - JOUR
+T1  - Objective quality assessment of medical images and videos: review and challenges
+A1  - Rodrigues, Rafael
+A1  - Lévêque, Lucie
+A1  - Gutiérrez, Jesús
+A1  - Jebbari, Houda
+A1  - Outtas, Meriem
+A1  - Zhang, Lu
+A1  - Chetouani, Aladine
+A1  - Al-Juboori, Shaymaa
+A1  - Martini, Maria G.
+A1  - Pinheiro, Antonio M.G.
+Y1  - 2025/07//
+KW  - Medical imaging
+KW  - Objective metrics
+KW  - Quality assessment
+KW  - Task-based quality
+PB  - Springer
+JF  - Multimedia Tools and Applications
+VL  - 84
+IS  - 25
+SP  - 29915
+EP  - 29948
+DO  - 10.1007/S11042-024-20292-X
+N2  - Quality assessment is a key element for the evaluation of hardware and software involved in image and video acquisition, processing, and visualization. In the medical field, user-based quality assessment is still considered more reliable than objective methods, which allow the implementation of automated and more efficient solutions. Regardless of increasing research on this topic in the last decade, defining quality standards for medical content remains a non-trivial task, as the focus should be on the diagnostic value assessed by expert viewers rather than the perceived quality from naïve viewers, and objective quality metrics should aim at estimating the first rather than the latter. In this paper, we present a survey of methodologies used for the objective quality assessment of medical images and videos, dividing them into visual quality-based and task-based approaches. Visual quality-based methods compute a quality index directly from visual attributes, while task-based methods, being increasingly explored, measure the impact of quality impairments on the performance of a specific task. A discussion on the limitations of state-of-the-art research on this topic is also provided, along with future challenges to be addressed.
+ER  - 
+TY  - JOUR
+T1  - A systematic review of low-rank and local low-rank matrix approximation in big data medical imaging
+A1  - Hamlomo, Sisipho
+A1  - Atemkeng, Marcellin
+A1  - Brima, Yusuf
+A1  - Nunhokee, Chuneeta
+A1  - Baxter, Jeremy
+Y1  - 2025/06//
+KW  - Bayesian optimization
+KW  - Local low-rank matrix approximation
+KW  - Medical imaging
+KW  - Random search
+KW  - Semantic segmentation
+KW  - Similarity measures
+PB  - Springer Science and Business Media Deutschland GmbH
+JF  - Neural Computing and Applications
+VL  - 37
+IS  - 16
+SP  - 9481
+EP  - 9536
+DO  - 10.1007/S00521-025-11055-2
+N2  - The large volume and complexity of medical imaging datasets pose significant challenges for storage, transmission, and processing. To address these issues, low-rank matrix approximation (LORMA) and its derivative, local LORMA (LLORMA), have shown promising potential. This paper presents a comprehensive literature review of the application of LORMA and LLORMA across various imaging modalities and examines the challenges and limitations of existing methods. Notably, since 2015, there has been a significant shift toward a preference for LLORMA in the medical imaging field, demonstrating its effectiveness in capturing complex structures in medical data compared to LORMA. Given the limitations of shallow similarity methods in LLORMA, we propose incorporating advanced semantic image segmentation to improve the accuracy of similarity measurement. We further explain how this approach can be utilized to identify similar patches and assess its feasibility in medical imaging applications. We observe that LORMA and LLORMA have primarily been applied to unstructured medical data, and we suggest extending their use to other types of medical data, including structured and semi-structured formats. This paper also explores how LORMA and LLORMA can be adapted for regular data with missing entries, considering the impact of inaccuracies in predicting these missing values and their consequences. In addition, we examine the effect of patch size and suggest using random search (RS) to identify the optimal patch size. To further enhance feasibility, we propose a hybrid approach combining Bayesian optimization and RS, which could improve the application of LORMA and LLORMA in medical imaging.
+ER  - 
+TY  - JOUR
+T1  - A survey on retrieval-augmentation generation (RAG) models for healthcare applications
+A1  - Abo El-Enen, Mohamed
+A1  - Saad, Sally
+A1  - Nazmy, Taymoor
+Y1  - 2025/11//
+KW  - Contrastive language-image pre-training
+KW  - Generative AI
+KW  - Knowledge retrieval
+KW  - Large language model
+KW  - Multimodal
+KW  - Natural language processing
+KW  - Retrieval-augmented generation
+PB  - Springer Science and Business Media Deutschland GmbH
+JF  - Neural Computing and Applications
+DO  - 10.1007/S00521-025-11666-9
+N2  - Retrieval-augmented generation (RAG) models have become crucial in healthcare applications, significantly enhancing the relevance and reliability of AI-driven insights by combining the generative capabilities of large language models (LLMs) with retrieval-based methods. As healthcare data demand precision and accountability, RAG models address critical limitations of LLMs, such as the tendency to “hallucinate” or produce inaccurate information—by incorporating real-time retrieval from trusted medical knowledge bases and clinical literature. This dual process of retrieving and generating ensures that responses are both contextually accurate and aligned with the latest clinical evidence, making RAG models especially valuable for medical question answering, diagnostics, and treatment planning. This paper presents an in-depth exploration of RAG models and LLMs, specifically within healthcare contexts, to meet the unique demands of medical data processing and decision support. It reviews various RAG architectures, including Naive, Advanced, and Modular RAG approaches, discussing how each framework optimizes retrieval depth, response quality, and computational efficiency. By reducing errors in patient-care recommendations, RAG models play an essential role in scenarios that require high precision and accountability. Additionally, this survey addresses the ethical considerations and transparency requirements for deploying RAG models in healthcare, identifying current challenges and future directions, such as enhancing source interpretability and adapting RAG frameworks for specialized medical fields. By systematically analyzing RAG techniques, this paper provides a comprehensive guide to the state-of-the-art in RAG applications within healthcare, positioning RAG models as a transformative tool for advancing AI-supported healthcare outcomes.
+ER  - 
+TY  - JOUR
+T1  - A systematic review of generative AI: importance of industry and startup-centered perspectives, agentic AI, ethical considerations & challenges, and future directions
+A1  - Patel, Kinjal
+A1  - Shah, Milind
+A1  - Qureshi, Karishma M.
+A1  - Qureshi, Mohamed Rafik N.
+Y1  - 2026/01//
+KW  - AI agents
+KW  - Agentic AI
+KW  - Artificial intelligence
+KW  - Compliance
+KW  - Ethical frameworks
+KW  - GenAI evolution
+KW  - Generative artificial intelligence
+KW  - Industrial GenAI
+KW  - Large concept model
+KW  - Large language model
+KW  - Multi agent systems
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 59
+IS  - 1
+DO  - 10.1007/S10462-025-11435-Z
+N2  - Generative Artificial Intelligence (GenAI) is rapidly redefining the landscape of work organizations and society at large. GenAI has rapidly evolved from rule-based symbolic systems ofThe 1940 s to advanced deep learning architectures capable of producing human-like content across modalities, such as text, images, audio, and video. This review focuses on current emerging trends, such as large concept models and critical comparisons of tools, including ChatGPT, Gemini, and Claude. This study synthesizes evidence of GenAI’s essential role across major industries, revealing transformative applications in the finance, cloud and IT, healthcare, education, and energy sectors. The paper also highlights the unique opportunities GenAI offers for start-ups, enabling agile projects to leverage cutting-edge technology for competitive advantage. However, the deployment of GenAI systems through edge devices also raises critical challenges related to ethics, transparency, bias, accountability, computational issues, and many more. To address these complexities, this paper examines emerging approaches such as AI agents, agentic AI, and multi-agent systems that aim to extend the functionality of GenAI through autonomy, goal-directed behavior, and collaborative intelligence. It discovers novel incorporations with agentic AI architecture, such as BabyAGI, and discusses emerging issues of coordination, hallucination, and security risks. The findings reveal persistent challenges related to scalability, interpretability, and regulatory compliance while identifying future research directions toward developing more sophisticated, ethical, and accessible GenAI systems that will continue to reshape technological landscapes and societal interactions. This systematic review informs researchers, academicians, data scientists, and developers about the latest advancements in GenAI and highlights its applications and role across various industries, as well as supporting practitioners and scholars in staying current with the rapidly evolving landscape of generative technologies.
+ER  - 
+TY  - JOUR
+T1  - Multi-teacher based knowledge distillation for retinal vessel segmentation
+A1  - Eid, Abdullah
+A1  - Aydin, Musa
+A1  - Kuş, Zeki
+Y1  - 2025/12//
+KW  - Knowledge Distillation
+KW  - Medical Imaging
+KW  - Multi Teacher Learning
+KW  - Retinal Vessel Segmentation
+PB  - Springer
+JF  - Health Information Science and Systems
+VL  - 13
+IS  - 1
+DO  - 10.1007/S13755-025-00356-4
+N2  - Accurate segmentation of retinal vessels is crucial for the early diagnosis and management of various ocular diseases. Existing methods often struggle to segment thin vessels, leading to missed diagnoses and inaccurate treatment plans. This study proposes a novel Multi-Teacher Based Knowledge Distillation (MTKD) method for Retinal Vessel Segmentation (RVS) to address this challenge. Our approach utilizes the expertise of multiple teacher networks, each specialized in learning different vessel characteristics. Specifically, we train three distinct teacher networks: one on the original ground truth, one on a modified ground truth highlighting thin vessels, and another on a modified ground truth emphasizing thick vessels. The student network is then trained to minimize the knowledge discrepancy between its predictions and the soft predictions of all three teachers. By incorporating knowledge from these specialized teachers, the student network effectively learns to segment both thin and thick vessels with improved accuracy. We evaluate our method on two retinal fundus image datasets and two angiography datasets, demonstrating highly competitive performance compared to state-of-the-art methods. The proposed method improves the baseline U-Net model by up to 8.44 points in F1 and 10.42 points in IOU. Additionally, we introduce a penalization technique to the student model’s loss function, further enhancing segmentation performance. Comprehensive ablation studies validate the effectiveness of the multi-teacher approach, the choice of loss functions, and the impact of model complexity. Our findings suggest that MTKD offers a promising approach for enhancing the robustness and accuracy of RVS. All source code, datasets, and results are made publicly available to support reproducibility and further research.
+ER  - 
+TY  - JOUR
+T1  - From understanding diseases to drug design: can artificial intelligence bridge the gap?
+A1  - Pushkaran, Anju Choorakottayil
+A1  - Arabi, Alya A.
+Y1  - 2024/04//
+KW  - Artificial intelligence
+KW  - Disease identification
+KW  - Drug discovery
+KW  - Machine learning
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 57
+IS  - 4
+DO  - 10.1007/S10462-024-10714-5
+N2  - Artificial intelligence (AI) has emerged as a transformative technology with significant potential to revolutionize disease understanding and drug design in healthcare. AI serves as a remarkable accelerating tool that bridges the gap between understanding diseases and discovering drugs. Given its capacity in the analysis and interpretation of massive amounts of data, AI is tremendously boosting the power of predictions with impressive accuracies. This allowed AI to pave the way for advancing all key stages of drug development, with the advantage of expediting the drug discovery process and curbing its costs. This is a comprehensive review of the recent advances in AI and its applications in drug discovery and development, starting with disease identification and spanning through the various stages involved in the drug discovery pipeline, including target identification, screening, lead discovery, and clinical trials. In addition, this review discusses the challenges that arise during the implementation of AI at each stage of the discovery process and provides insights into the future prospects of this field.
+ER  - 
+TY  - JOUR
+T1  - Active convolutional neural networks sign language (ActiveCNN-SL) framework: a paradigm shift in deaf-mute communication
+A1  - ZainEldin, Hanaa
+A1  - Baghdadi, Nadiah A.
+A1  - Gamel, Samah A.
+A1  - Aljohani, Mansourah
+A1  - Talaat, Fatma M.
+A1  - Malki, Amer
+A1  - Badawy, Mahmoud
+A1  - Elhosseini, Mostafa
+Y1  - 2024/06//
+KW  - Communication Accessibility and Inclusivity
+KW  - Deaf-Mute Communication
+KW  - Deep Learning
+KW  - Quality of life for the deaf/Mute
+KW  - Real-time speech-to-text
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 57
+IS  - 6
+DO  - 10.1007/S10462-024-10792-5
+N2  - Real-time speech-to-text and text-to-speech technologies have significantly influenced the accessibility of communication for individuals who are deaf or mute. This research aims to assess the efficacy of these technologies in facilitating communication between deaf or mute individuals and those who are neither deaf nor mute. A mixed-method approach will incorporate qualitative and quantitative data collection and analysis techniques. The study will involve participants from deaf or mute and non-deaf or non-mute communities. The research will scrutinize the precision and efficiency of communication using these technologies and evaluate user experience and satisfaction. Furthermore, the study intends to pinpoint potential obstacles and limitations of these technologies and offer suggestions for enhancing their effectiveness in fostering inclusivity. The study proposes an active learning framework for sign language gesture recognition, termed Active Convolutional Neural Networks—Sign Language (ActiveCNN-SL). ActiveCNN-SL aims to minimize the labeled data required for training and augment the accuracy of sign language gesture recognition through iterative human feedback. This proposed framework holds the potential to enhance communication accessibility for deaf and mute individuals and encourage inclusivity across various environments. The proposed framework is trained using two primary datasets: (i) the Sign Language Gesture Images Dataset and (ii) the American Sign Language Letters (ASL)—v1. The framework employs Resnet50 and YoloV.8 to train the datasets. It has demonstrated high performance in terms of precision and accuracy. The ResNet model achieved a remarkable accuracy rate of 99.98% during training, and it also exhibited a validation accuracy of 100%, surpassing the baseline CNN and RNN models. The YOLOv8 model outperformed previous methods on the ASL alphabet dataset, achieving an overall mean average accuracy for all classes of 97.8%.
+ER  - 
+TY  - JOUR
+T1  - Preserving physician ethics in the era of autonomous AI
+A1  - Feldman, Edward
+A1  - De Cremer, David
+Y1  - 2025/06//
+PB  - Springer Science and Business Media LLC
+JF  - AI and Ethics
+VL  - 5
+IS  - 3
+SP  - 3415
+EP  - 3420
+DO  - 10.1007/S43681-024-00602-7
+N2  - For this commentary we explore the how and why of a looming responsibility shift to autonomous AI in medicine and the potential unintended consequence of reducing doctors’ sense of obligation to preserve ethics. In exploring this proposition, we address the difficulties of relying upon intelligent machines to uphold ethics and we offer suggestions on how policymakers and medical educators might prevent ethics degradation caused by the alignment of doctors with autonomous AI.
+ER  - 
+TY  - JOUR
+T1  - Enhancing keratoconus detection with transformer technology and multi-source integration
+A1  - Ismael, Osama
+Y1  - 2025/01//
+KW  - Corneal topography
+KW  - Deep learning
+KW  - Keratoconus progression
+KW  - Multi-source data integration
+KW  - Transformers technology
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 58
+IS  - 1
+DO  - 10.1007/S10462-024-11016-6
+N2  - Keratoconus is a progressive eye disease characterized by the thinning and conical distortion of the cornea, leading to visual impairment. Early and accurate detection is essential for effective management and treatment. Traditional diagnostic methods, relying primarily on corneal topography, often fail to detect early-stage keratoconus due to their subjective nature and limited scope. In this research, we present a novel multi-source detection approach utilizing transformer technology to predict keratoconus progression more accurately. By integrating and analyzing diverse data sources, including corneal topography, aberrometry, pachymetry, and biomechanical properties, our method captures subtle changes indicative of disease progression. Transformer networks, known for their capability to model complex dependencies in data, are employed to handle the multimodal datasets effectively. Experimental results demonstrate that our approach significantly outperforms existing methods, such as SVM-based, Random Forests-based, and CNN-based models, in terms of accuracy, precision, recall, and F-score. Moreover, the proposed system exhibits lower execution times, highlighting its efficiency in clinical settings. This innovative methodology holds the potential to revolutionize keratoconus management by enabling earlier and more precise interventions, ultimately enhancing patient outcomes and contributing significantly to both the medical and machine learning communities.
+ER  - 
+TY  - JOUR
+T1  - Mouth and oral disease classification using InceptionResNetV2 method
+A1  - Rashid, Javed
+A1  - Qaisar, Bilal Shabbir
+A1  - Faheem, Muhammad
+A1  - Akram, Arslan
+A1  - Amin, Riaz ul
+A1  - Hamid, Muhammad
+Y1  - 2024/03//
+KW  - InceptionResNetV2
+KW  - Mouth and oral diseases dataset
+KW  - Mouth diseases
+KW  - Oral diseases
+KW  - Teeth diseases
+PB  - Springer
+JF  - Multimedia Tools and Applications
+VL  - 83
+IS  - 11
+SP  - 33903
+EP  - 33921
+DO  - 10.1007/S11042-023-16776-X
+N2  - Digital tools have greatly improved the detection and diagnosis of oral and dental disorders like cancer and gum disease. Lip or oral cavity cancer is more likely to develop in those with potentially malignant oral disorders. A potentially malignant disorder (PMD) and debilitating condition of the oral mucosa, oral submucous fibrosis (OSMF), can have devastating effects on one’s quality of life. Incorporating deep learning into diagnosing conditions affecting the mouth and oral cavity is challenging. Mouth and Oral Diseases Classification using InceptionResNetV2 Method was established in the current study to identify diseases such as gangivostomatitis (Gum), canker sores (CaS), cold sores (CoS), oral lichen planus (OLP), oral thrush (OT), mouth cancer (MC), and oral cancer (OC). The new collection, termed "Mouth and Oral Diseases" (MOD), comprises seven distinct categories of data. Compared to state-of-the-art approaches, the proposed InceptionResNetV2 model’s 99.51% accuracy is significantly higher.
+ER  - 
+TY  - JOUR
+T1  - Medical images under tampering
+A1  - Tsai, Min Jen
+A1  - Lin, Ping Ying
+Y1  - 2024/07//
+KW  - Adversarial attacks
+KW  - Deep learning
+KW  - Differential evolution
+KW  - Medical image analysis
+KW  - One-pixel attack
+PB  - Springer
+JF  - Multimedia Tools and Applications
+VL  - 83
+IS  - 24
+SP  - 65407
+EP  - 65439
+DO  - 10.1007/S11042-023-17968-1
+N2  - Attacks on deep learning models are a constant threat in the world today. As more deep learning models and artificial intelligence (AI) are being implemented across different industries, the likelihood of them being attacked increases dramatically. In this context, the medical domain is of the greatest concern because an erroneous decision made by AI could have a catastrophic outcome and even lead to death. Therefore, a systematic procedure is built in this study to determine how well these medical images can resist a specific adversarial attack, i.e. a one-pixel attack. This may not be the strongest attack, but it is simple and effective, and it could occur by accident or an equipment malfunction. The results of the experiment show that it is difficult for medical images to survive a one-pixel attack.
+ER  - 
+TY  - JOUR
+T1  - Fovea localization in retinal images using spatial color histograms
+A1  - Sigut, Jose
+A1  - Nuñez, Omar
+A1  - Fumero, Francisco
+A1  - Alayon, Silvia
+A1  - Diaz-Aleman, Tinguaro
+Y1  - 2024/02//
+KW  - Fovea localization
+KW  - Retinal diseases diagnosis
+KW  - Spatial color histogram
+PB  - Springer
+JF  - Multimedia Tools and Applications
+VL  - 83
+IS  - 6
+SP  - 17753
+EP  - 17771
+DO  - 10.1007/S11042-023-16244-6
+N2  - The automatic location of the fovea is very useful for diagnosing retinal diseases. It is a complex problem for which different solutions have been proposed based on classical image processing and Deep Learning techniques. The method presented in this paper is based on histograms that combine spatial and color information in such a way that the spatial coordinates are incorporated into conventional color histograms as an additional dimension. The binarization of these histograms retains a considerable amount of relevant information from the original image, allowing them to be processed as if they were ordinary images. This approach to the problem results in a simple, fast and effective method for locating the fovea. Different experiments have been carried out with three popular sets of images: Messidor, REFUGE1 and DIARETDB1, and a comparison was made with other state-of-the-art techniques. Our results show that the proposed method, despite its simplicity, is capable of surpassing many of these techniques.
+ER  - 
+TY  - JOUR
+T1  - Multi strategy Horned Lizard Optimization Algorithm for complex optimization and advanced feature selection problems
+A1  - Emam, Marwa M.
+A1  - Hosney, Mosa E.
+A1  - Mostafa, Reham R.
+A1  - Houssein, Essam H.
+Y1  - 2025/12//
+KW  - Feature selection
+KW  - Horned Lizard Optimization Algorithm
+KW  - Local escaping operator
+KW  - Orthogonal learning
+PB  - Springer Nature
+JF  - Journal of Big Data
+VL  - 12
+IS  - 1
+DO  - 10.1186/S40537-025-01205-7
+N2  - Feature selection (FS) is a critical process in classification tasks within artificial intelligence, aimed at identifying a minimal yet highly informative subset of features to maximize classification accuracy. As a combinatorial NP-hard problem, FS necessitates using powerful metaheuristic algorithms to serve as efficient wrapper-based FS strategies. However, when applied to high-dimensional datasets characterized by a vast number of features and limited samples-these methods often suffer from performance degradation and increased computational costs. The Horned Lizard Optimization Algorithm (HLOA) is a nature-inspired metaheuristic that mathematically mimics the adaptive defense mechanisms of horned lizards, including crypsis, skin color modulation, blood-squirting, and escape movements. While HLOA demonstrates simplicity, flexibility, and a minimal parameter set, it is hindered by slow convergence and a tendency to become trapped in local optima, leading to suboptimal FS performance. To address these limitations, this paper introduces a Multi-Strategy Enhanced HLOA (mHLOA), integrating three novel enhancement strategies: Local Escaping Operator (LEO), Orthogonal Learning (OL), and a RIME diversification mechanism. LEO enhances population diversity by enabling solutions to escape local optima, while the RIME operator improves exploration capabilities. Additionally, the OL disturbance mechanism refines the search process, ensuring better convergence and preventing premature stagnation. The efficacy of mHLOA is rigorously evaluated using 12 complex benchmark functions from the CEC’22 test suite and 14 standard datasets from the UCI Machine Learning Repository. Comparative analysis against recent state-of-the-art algorithms demonstrates that mHLOA achieves superior classification accuracy, selects a reduced yet highly effective feature subset, and exhibits robustness in high-dimensional FS tasks. These findings affirm the potential of mHLOA as a powerful optimization framework for advanced feature selection and complex optimization problems.
+ER  - 
+TY  - JOUR
+T1  - AI-based methods for detecting and classifying age-related macular degeneration: a comprehensive review
+A1  - El-Den, Niveen Nasr
+A1  - Elsharkawy, Mohamed
+A1  - Saleh, Ibrahim
+A1  - Ghazal, Mohammed
+A1  - Khalil, Ashraf
+A1  - Haq, Mohammad Z.
+A1  - Sewelam, Ashraf
+A1  - Mahdi, Hani
+A1  - El-Baz, Ayman
+Y1  - 2024/09//
+KW  - Age-related macular degeneration
+KW  - Artificial intelligence
+KW  - Color Fundus Photography
+KW  - Deep learning
+KW  - Machine learning
+KW  - Optical coherence tomography
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 57
+IS  - 9
+DO  - 10.1007/S10462-024-10883-3
+N2  - This paper explores the advancements and achievements of artificial intelligence (AI) in computer vision (CV), particularly in the context of diagnosing and grading age-related macular degeneration (AMD), one of the most common leading causes of blindness and low vision that impact millions of patients globally. Integrating AI in biomedical engineering and healthcare has significantly enhanced the understanding and development of the CV application to mimic human problem-solving abilities. By leveraging AI-based models, ophthalmologists can improve the accuracy and speed of disease diagnosis, enabling early treatment and mitigating the severity of the conditions. This paper presents a comprehensive analysis of many studies on AMD published between 2014 and 2024, with more than 80% published after 2020. Various methodologies and techniques are examined, particularly emphasizing utilizing different retinal imaging modalities like color fundus photography and optical coherence tomography (OCT), where 66% of the studies used OCT datasets. This review aims to compare the efficacy of these AI-based approaches, including machine learning and deep learning, in detecting and diagnosing different stages and grades of AMD based on the evaluation of different performance metrics using different private and public datasets. In addition, this paper introduces some suggested AI solutions for future work.
+ER  - 
+TY  - JOUR
+T1  - Enhancing statistical chart accessibility for people with low vision: insights from a user test
+A1  - Alcaraz-Martínez, Rubén
+A1  - Ribera, Mireia
+A1  - Adeva-Fillol, Adrià
+A1  - Pascual-Almenara, Afra
+Y1  - 2024/11//
+KW  - Data visualization
+KW  - Heuristic evaluation
+KW  - Low vision
+KW  - Statistical charts
+KW  - User test
+KW  - Web accessibility
+PB  - Springer Science and Business Media Deutschland GmbH
+JF  - Universal Access in the Information Society
+DO  - 10.1007/S10209-024-01111-4
+N2  - A remote user test was performed with two versions (one accessible and one non-accessible) of three types of web-based charts (horizontal bar chart, vertical stacked bar chart, and line chart). The objectives of the test were: (a) to validate a set of heuristic indicators for the evaluation of the accessibility of statistical charts presented in a previous work (Fariñas Falcón et al. in Mediocentro Electrónica 21(1):65–68, 2017); (b) to identify new barriers and preferences for users with low vision in the access and use of this content not previously contemplated. 12 users were tested, with a variety of conditions associated with low vision: low visual acuity (6 users), reduced central vision (2 users), reduced peripheral vision (2 users), blurry vision (1 user), sensitivity to light (3 users), Nystagmus (2 users) and color vision deficiency (CVD) (4 users). From a quantitative standpoint, accessible versions of charts were more efficient, effective, and satisfactory. From a qualitative point of view, results verify the relevance of heuristics H2, Legend; H3, Axes; H6, Data source (as data table); H10, Safe colors; H11, Contrast; H12, Legibility; H13, Image quality; H14, Resize; H16, Focus visible; H17, Independent navigation; related to the proposed tasks. As new observations, tooltips were highly valued by all users, but their implementation must be improved to avoid covering up significant parts of the charts when displayed. The data table has also been frequently used by all users, especially in the non-accessible versions, allowing them to carry out tasks more efficiently. The position and size of the legend can be a significant barrier if it is too small or appears in an unusual position. Finally, despite the limitations related to color perception, some users prefer color graphics to black and white, so, to target all profiles, it is necessary to redundantly encode categories with colors and patterns as well.
+ER  - 
+TY  - JOUR
+T1  - Red-billed blue magpie optimizer: a novel metaheuristic algorithm for 2D/3D UAV path planning and engineering design problems
+A1  - Fu, Shengwei
+A1  - Li, Ke
+A1  - Huang, Haisong
+A1  - Ma, Chi
+A1  - Fan, Qingsong
+A1  - Zhu, Yunwei
+Y1  - 2024/06//
+KW  - 2D and 3D UAV path planning
+KW  - Artificial intelligence
+KW  - Engineering design problems
+KW  - NP-hard problems
+KW  - Numerical optimization
+KW  - Red-billed blue magpie optimizer
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 57
+IS  - 6
+DO  - 10.1007/S10462-024-10716-3
+N2  - Numerical optimization, Unmanned Aerial Vehicle (UAV) path planning, and engineering design problems are fundamental to the development of artificial intelligence. Traditional methods show limitations in dealing with these complex nonlinear models. To address these challenges, the swarm intelligence algorithm is introduced as a metaheuristic method and effectively implemented. However, existing technology exhibits drawbacks such as slow convergence speed, low precision, and poor robustness. In this paper, we propose a novel metaheuristic approach called the Red-billed Blue Magpie Optimizer (RBMO), inspired by the cooperative and efficient predation behaviors of red-billed blue magpies. The mathematical model of RBMO was established by simulating the searching, chasing, attacking prey, and food storage behaviors of the red-billed blue magpie. To demonstrate RBMO’s performance, we first conduct qualitative analyses through convergence behavior experiments. Next, RBMO’s numerical optimization capabilities are substantiated using CEC2014 (Dim = 10, 30, 50, and 100) and CEC2017 (Dim = 10, 30, 50, and 100) suites, consistently achieving the best Friedman mean rank. In UAV path planning applications (two-dimensional and three − dimensional), RBMO obtains preferable solutions, demonstrating its effectiveness in solving NP-hard problems. Additionally, in five engineering design problems, RBMO consistently yields the minimum cost, showcasing its advantage in practical problem-solving. We compare our experimental results with three categories of widely recognized algorithms: (1) advanced variants, (2) recently proposed algorithms, and (3) high-performance optimizers, including CEC winners.
+ER  - 
+TY  - JOUR
+T1  - Survey: application and analysis of generative adversarial networks in medical images
+A1  - Heng, Yang
+A1  - Yinghua, Ma
+A1  - Khan, Fiaz Gul
+A1  - Khan, Ahmad
+A1  - Ali, Farman
+A1  - AlZubi, Ahmad Ali
+A1  - Hui, Zeng
+Y1  - 2025/02//
+KW  - Deep learning
+KW  - GAN survey
+KW  - Generative adversarial networks
+KW  - Medical image analysis
+KW  - Medical images
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 58
+IS  - 2
+DO  - 10.1007/S10462-024-10992-Z
+N2  - Generative Adversarial Networks (GANs) have shown promising prospects and achieved significant results in medical image analysis tasks. This article provides a comprehensive review of recent research on GANs and their variants in medical applications, including tasks such as image synthesis, segmentation, classification, detection, denoising, reconstruction, fusion, registration, and prediction. We summarize and analyze the reviewed literature, with a focus on model framework design,dataset sources, and performance evaluation. Our research findings are presented in the form of tables. In the end,article discusses open challenges and directions for future research.
+ER  - 
+TY  - JOUR
+T1  - Recent applications and advances of African Vultures Optimization Algorithm
+A1  - Hussien, Abdelazim G.
+A1  - Gharehchopogh, Farhad Soleimanian
+A1  - Bouaouda, Anas
+A1  - Kumar, Sumit
+A1  - Hu, Gang
+Y1  - 2024/12//
+KW  - Engineering problems
+KW  - Metaheuristic
+KW  - Population-based algorithm
+KW  - Swarm Intelligence
+KW  - Variants
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 57
+IS  - 12
+DO  - 10.1007/S10462-024-10981-2
+N2  - The African Vultures Optimization Algorithm (AVOA) is a recently developed meta-heuristic algorithm inspired by the foraging behavior of African vultures in nature. This algorithm has gained attention due to its simplicity, flexibility, and effectiveness in tackling many optimization problems. The significance of this review lies in its comprehensive examination of the AVOA’s development, core principles, and applications. By analyzing 112 studies, this review highlights the algorithm’s versatility and the growing interest in enhancing its performance for real-world optimization challenges. This review methodically explores the evolution of AVOA, investigating proposed improvements that enhance the algorithm’s ability to adapt to various search geometries in optimization problems. Additionally, it introduces the AVOA solver, detailing its functionality and application in different optimization scenarios. The review demonstrates the AVOA’s effectiveness, particularly its unique weighting mechanism, which mimics vulture behavior during the search process. The findings underscore the algorithm’s robustness, ease of use, and lack of dependence on derivative information. The review also critically evaluates the AVOA’s convergence behavior, identifying its strengths and limitations. In conclusion, the study not only consolidates the existing knowledge on AVOA but also proposes directions for future research, including potential adaptations and enhancements to address its limitations. The insights gained from this review offer valuable guidance for researchers and practitioners seeking to apply or improve the AVOA in various optimization tasks.
+ER  - 
+TY  - JOUR
+T1  - A computer graphics-based model to generate dynamic 3D animations for corresponding Bangla sign language gestures using HamNoSys to SiGML conversion
+A1  - Karim, Ahsanul
+A1  - Rahaman, Muhammad Aminur
+A1  - Islam, Md. Ariful
+A1  - Islam, Md. Ariful
+A1  - Rahman, Anichur
+A1  - Debnath, Tanoy
+A1  - Das, Utpol Kanti
+Y1  - 2025/11//
+JF  - Artificial Intelligence Review
+VL  - 59
+IS  - 1
+SP  - 25
+EP  - 25
+DO  - 10.1007/S10462-025-11370-Z
+UR  - https://link.springer.com/10.1007/s10462-025-11370-z
+ER  - 
+TY  - JOUR
+T1  - Review of medical image processing using quantum-enabled algorithms
+A1  - Yan, Fei
+A1  - Huang, Hesheng
+A1  - Pedrycz, Witold
+A1  - Hirota, Kaoru
+Y1  - 2024/11//
+KW  - Biomedical engineering
+KW  - Computer-aided diagnosis
+KW  - Machine learning
+KW  - Medical image processing
+KW  - Medical image security
+KW  - Quantum computing
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 57
+IS  - 11
+DO  - 10.1007/S10462-024-10932-X
+N2  - Efficient and reliable storage, analysis, and transmission of medical images are imperative for accurate diagnosis, treatment, and management of various diseases. Since quantum computing can revolutionize big data analytics by providing faster solutions and security tactics, numerous studies in this field have focused on the use of quantum and quantum-inspired algorithms to enhance the performance of traditional medical image processing approaches. This review aims to provide readers with a succinct yet adequate compendium of the advances in medical image processing combined with quantum behaviors for disease diagnosis and medical image security. Some open challenges are outlined, identifying the performance limitations of current quantum technology in their applications, while addressing the short-, medium-, and long-term development plans of this field in designing future quantum healthcare systems. We hope that this review will provide full guidance for upcoming researchers interested in this area and will stimulate further appetite of experts already active in this area aimed at the pursuit of more advanced quantum paradigms in medical image processing applications.
+ER  - 
+TY  - JOUR
+T1  - Efficient artificial intelligence approaches for medical image processing in healthcare: comprehensive review, taxonomy, and analysis
+A1  - Alnaggar, Omar Abdullah Murshed Farhan
+A1  - Jagadale, Basavaraj N.
+A1  - Saif, Mufeed Ahmed Naji
+A1  - Ghaleb, Osamah A.M.
+A1  - Ahmed, Ammar A.Q.
+A1  - Aqlan, Hesham Abdo Ahmed
+A1  - Al-Ariki, Hasib Daowd Esmail
+Y1  - 2024/08//
+KW  - Artificial intelligence
+KW  - Classification
+KW  - Deep learning
+KW  - Feature extraction
+KW  - Healthcare
+KW  - Image processing
+KW  - Machine learning
+KW  - Medical image analysis
+KW  - Preprocessing
+KW  - Segmentation
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 57
+IS  - 8
+DO  - 10.1007/S10462-024-10814-2
+N2  - In healthcare, medical practitioners employ various imaging techniques such as CT, X-ray, PET, and MRI to diagnose patients, emphasizing the crucial need for early disease detection to enhance survival rates. Medical Image Analysis (MIA) has undergone a transformative shift with the integration of Artificial Intelligence (AI) techniques such as Machine Learning (ML) and Deep Learning (DL), promising advanced diagnostics and improved healthcare outcomes. Despite these advancements, a comprehensive understanding of the efficiency metrics, computational complexities, interpretability, and scalability of AI based approaches in MIA is essential for practical feasibility in real-world healthcare environments. Existing studies exploring AI applications in MIA lack a consolidated review covering the major MIA stages and specifically focused on evaluating the efficiency of AI based approaches. The absence of a structured framework limits decision-making for researchers, practitioners, and policymakers in selecting and implementing optimal AI approaches in healthcare. Furthermore, the lack of standardized evaluation metrics complicates methodology comparison, hindering the development of efficient approaches. This article addresses these challenges through a comprehensive review, taxonomy, and analysis of existing AI-based MIA approaches in healthcare. The taxonomy covers major image processing stages, classifying AI approaches for each stage based on method and further analyzing them based on image origin, objective, method, dataset, and evaluation metrics to reveal their strengths and weaknesses. Additionally, comparative analysis conducted to evaluate the efficiency of AI based MIA approaches over five publically available datasets: ISIC 2018, CVC-Clinic, 2018 DSB, DRIVE, and EM in terms of accuracy, precision, Recall, F-measure, mIoU, and specificity. The popular public datasets and evaluation metrics are briefly described and analyzed. The resulting taxonomy provides a structured framework for understanding the AI landscape in healthcare, facilitating evidence-based decision-making and guiding future research efforts toward the development of efficient and scalable AI approaches to meet current healthcare needs.
+ER  - 
+TY  - JOUR
+T1  - Combining EfficientNet with ML-Decoder classification head for multi-label retinal disease classification
+A1  - Sivaz, Orhan
+A1  - Aykut, Murat
+Y1  - 2024/08//
+KW  - EfficientNet
+KW  - ML-Decoder
+KW  - Multi-label classification
+KW  - Retinal disease detection
+KW  - SAM optimizer
+PB  - Springer Science and Business Media Deutschland GmbH
+JF  - Neural Computing and Applications
+VL  - 36
+IS  - 23
+SP  - 14251
+EP  - 14261
+DO  - 10.1007/S00521-024-09820-W
+N2  - Retinal diseases that are not treated in time can cause irreversible, permanent damage, including blindness. Although a patient may suffer from more than one retinal disease at the same time, most of the studies focus on the diagnosis of a single disease only. Therefore, to detect multi-label retinal diseases from color fundus images, we developed an end-to-end deep learning architecture that combines the EfficientNet backbone with the ML-Decoder classification head in this study. While EfficientNet provides powerful feature extraction with fewer parameters via compound scaling, ML-Decoder further improves efficiency and flexibility by reducing quadratic dependency to a linear one and using a group decoding scheme. Also, with the use of sharpness-aware minimization (SAM) optimizer, which minimizes loss value and loss sharpness simultaneously, higher accuracy rates have been reached. In addition, a significant increase in EfficientNet performance is achieved by using image transformations and concatenation together. During the training phase, the random application of the image transformations allows for increasing the image diversity and makes the model more robust. Besides, fusing fundus images of left and right eyes at the pixel level extracts useful information about their relationship. The performance of the final model was evaluated on the publicly available Ocular Disease Intelligent Recognition (ODIR) dataset consisting of 10,000 fundus images, and superior results were obtained in all test set scenarios and performance metrics than state-of-the-art methods. The best results we obtained in the threefold cross-validation scenario for the kappa, F1, and AUC scores are 68.96%, 92.48%, and 94.80%, respectively. Moreover, it can be considered attractive in terms of floating point operations per second (FLOP) and a number of parameters.
+ER  - 
+TY  - JOUR
+T1  - A comprehensive review of artificial intelligence models for screening major retinal diseases
+A1  - Hassan, Bilal
+A1  - Raja, Hina
+A1  - Hassan, Taimur
+A1  - Akram, Muhammad Usman
+A1  - Raja, Hira
+A1  - Abd-alrazaq, Alaa A.
+A1  - Yousefi, Siamak
+A1  - Werghi, Naoufel
+Y1  - 2024/05//
+KW  - Age-related macular degeneration (AMD)
+KW  - Artificial intelligence
+KW  - Diabetic retinopathy (DR)
+KW  - Fundus
+KW  - Glaucoma
+KW  - Optical coherence tomography (OCT)
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 57
+IS  - 5
+DO  - 10.1007/S10462-024-10736-Z
+N2  - This paper provides a systematic survey of artificial intelligence (AI) models that have been proposed over the past decade to screen retinal diseases, which can cause severe visual impairments or even blindness. The paper covers both the clinical and technical perspectives of using AI models in hosipitals to aid ophthalmologists in promptly identifying retinal diseases in their early stages. Moreover, this paper also evaluates various methods for identifying structural abnormalities and diagnosing retinal diseases, and it identifies future research directions based on a critical analysis of the existing literature. This comprehensive study, which reviews both the conventional and state-of-the-art methods to screen retinopathy across different modalities, is unique in its scope. Additionally, this paper serves as a helpful guide for researchers who want to work in the field of retinal image analysis in the future.
+ER  - 
+TY  - JOUR
+T1  - A comprehensive survey on impact of applying various technologies on the internet of medical things
+A1  - El-deep, Shorouk E.
+A1  - Abohany, Amr A.
+A1  - Sallam, Karam M.
+A1  - El-Mageed, Amr A.Abd
+Y1  - 2025/03//
+KW  - Artificial Intelligence (AI)
+KW  - Blockchain
+KW  - Cloud computing
+KW  - Deep Learning (DL)
+KW  - Internet of Medical Things (IoMT)
+KW  - Smart healthcare
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 58
+IS  - 3
+DO  - 10.1007/S10462-024-11063-Z
+N2  - This paper explores the transformative impact of the Internet of Medical Things (IoMT) on healthcare. By integrating medical equipment and sensors with the internet, IoMT enables real-time monitoring of patient health, remote patient care, and individualized treatment plans. IoMT significantly improves several healthcare domains, including managing chronic diseases, patient safety, and drug adherence, resulting in better patient outcomes and reduced expenses. Technologies like blockchain, Artificial Intelligence (AI), and cloud computing further boost IoMT’s capabilities in healthcare. Blockchain enhances data security and interoperability, AI analyzes massive volumes of health data to find patterns and make predictions, and cloud computing offers scalable and cost-effective data processing and storage. Therefore, this paper provides a comprehensive review of the Internet of Things (IoT) and IoMT-based edge-intelligent smart healthcare, focusing on publications published between 2018 and 2024. The review addresses numerous studies on IoT, IoMT, AI, edge and cloud computing, security, Deep Learning, and blockchain. The obstacles facing IoMT are also covered in this paper, including interoperability issues, regulatory compliance, and privacy and data security concerns. Finally, recommendations for further studies are provided.
+ER  - 
+TY  - JOUR
+T1  - A comprehensive review of optic disc segmentation methods in adult and pediatric retinal images: from conventional methods to artificial intelligence (CR-ODSeg-AP-CM2AI)
+A1  - Bansal, Avinash
+A1  - Kubíček, Jan
+A1  - Penhaker, Marek
+A1  - Augustynek, Martin
+Y1  - 2025/04//
+KW  - Artificial intelligence
+KW  - Conventional methods
+KW  - Hybrid approaches
+KW  - Optic disc segmentation
+KW  - Pediatric retinal disorders
+KW  - Retinal diseases
+KW  - Review
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 58
+IS  - 4
+DO  - 10.1007/S10462-024-11056-Y
+N2  - This review, titled CR-ODSeg-AP-CM2AI (Comprehensive Review of Optic Disc Segmentation in Adult and Pediatric Retinal Images: From Conventional Methods to Artificial Intelligence), explores optic disc segmentation techniques for adult and pediatric retinal images. It emphasizes the clinical implications of these techniques in diagnosing and monitoring retinal diseases across diverse populations. We systematically categorize each segmentation method, comparing traditional approaches with advancements in artificial intelligence (AI) to highlight innovative hybrid techniques that enhance segmentation accuracy and efficiency. This review also discusses evaluation metrics and the use of larger datasets to provide insights into the effectiveness and robustness of these methods.
+ER  - 
+TY  - JOUR
+T1  - OptiFeat: enhancing feature selection, a hybrid approach combining subject matter expertise and recursive feature elimination method
+A1  - Vijayakumar, G.
+A1  - Bharathi, R. K.
+Y1  - 2024/12//
+KW  - Feature selection
+KW  - GC
+KW  - JVM
+KW  - RFE
+PB  - Springer Science and Business Media B.V.
+JF  - Discover Computing
+VL  - 27
+IS  - 1
+DO  - 10.1007/S10791-024-09483-0
+N2  - Optimizing the performance of Java Virtual Machines (JVMs) (Sahin et al. in Proc IEEE Int Congr Big Data BigData Congr 410–417, 2016) is crucial for achieving efficient execution of Java applications. Feature selection plays a pivotal role in identifying the most relevant parameters for fine-tuning JVMs, thereby enhancing their overall efficiency. This paper presents a novel hybrid approach that integrates both subject matter expertise and Recursive Feature Elimination (RFE) (Yin et al. in J Big Data 10(1):15, 2023) model to refine feature selection for JVM fine-tuning using machine learning techniques. Traditional feature selection methods often lack the ability to incorporate domain-specific knowledge, resulting in suboptimal selections (Khaire and Dhanalakshmi in J King Saud Univ Comput Inf Sci 34(4):1060–1073, 2022). In contrast, the hybrid approach leverages the expertise of JVM administrators or developers to guide the feature selection process. By integrating domain knowledge into the feature selection pipeline, ensure the inclusion of crucial JVM parameters that may not be captured by automated techniques alone. Furthermore, employed the RFE model, a powerful recursive feature elimination algorithm, to iteratively identify and eliminate irrelevant features from the initial feature set. This iterative process enhances the efficiency of feature selection by systematically pruning less influential parameters, thereby improving the overall performance of the JVM. To validate the effectiveness of the hybrid approach, conducted experiments using real-world JVM datasets and compare the performance of the method against existing feature selection techniques. The results demonstrate that the approach not only achieves superior performance in terms of JVM fine-tuning but also provides insights into the significance of domain expertise in optimizing JVM performance (Menéndez and Bartlett in http://arxiv.org/abs/2310.16510, 2023). It contributes to the field of JVM optimization by proposing a novel hybrid approach that combines subject matter expertise with machine learning-based feature selection techniques. By leveraging both domain knowledge and automated algorithms, the approach offers a comprehensive solution for enhancing feature selection in JVM fine-tuning, ultimately leading to improved performance and efficiency in Java application execution.
+ER  - 
+TY  - JOUR
+T1  - Physics-informed machine learning for advancing computational medical imaging: integrating data-driven approaches with fundamental physical principles
+A1  - Ahmadi, Mohsen
+A1  - Biswas, Debojit
+A1  - Lin, Maohua
+A1  - Vrionis, Frank D.
+A1  - Hashemi, Javad
+A1  - Tang, Yufei
+Y1  - 2025/10//
+KW  - Domain knowledge
+KW  - Image reconstruction
+KW  - Machine learning
+KW  - Medical imaging
+KW  - Physics-informed machine learning
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 58
+IS  - 10
+DO  - 10.1007/S10462-025-11303-W
+N2  - Medical imaging is a cornerstone of modern healthcare, enabling precise diagnosis, treatment planning, and disease monitoring. Traditional machine learning (ML) approaches have significantly improved medical image analysis, yet they face challenges such as data scarcity, lack of interpretability, and variability in imaging protocols. Physics-Informed Machine Learning (PIML) offers a transformative solution by integrating fundamental physical laws, usually in partial differential equations and boundary conditions, into data-driven ML models. PIML constrains the solution space, enhances interpretability, and reduces the dependency on large, annotated datasets. This review provides an overview of the principles, methodologies, and applications of PIML in medical imaging, with a focus on imaging modalities such as MRI, CT, and ultrasound. We discuss the taxonomy of PIML approaches based on observational, inductive, and learning biases, showing their roles in enhancing model accuracy and generalization. Additionally, we explore the impact of PIML on image reconstruction, segmentation, enhancement, and anomaly detection, demonstrating its effectiveness in addressing noise, resolution, and diagnostic accuracy challenges. Despite its advantages, PIML faces challenges in the accurate representation of complex physiological processes, computational efficiency, and the integration of physics-based priors across diverse applications. This review points out future research directions including the development of hybrid models that combine PIML with deep learning techniques and large foundation models, improved benchmark datasets, and scalable algorithms for real-time applications. The findings of this review highlight PIML as a pivotal approach for advancing medical imaging, bridging the gap between theoretical models and practical implementation in clinical settings.
+ER  - 
+TY  - JOUR
+T1  - Multistage transfer learning for medical images
+A1  - Ayana, Gelan
+A1  - Dese, Kokeb
+A1  - Abagaro, Ahmed Mohammed
+A1  - Jeong, Kwangcheol Casey
+A1  - Yoon, Soon Do
+A1  - Choe, Se Woon
+Y1  - 2024/09//
+KW  - Artificial intelligence
+KW  - Medical images
+KW  - Multistage transfer learning
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 57
+IS  - 9
+DO  - 10.1007/S10462-024-10855-7
+N2  - Deep learning is revolutionizing various domains and significantly impacting medical image analysis. Despite notable progress, numerous challenges remain, necessitating the refinement of deep learning algorithms for optimal performance in medical image analysis. This paper explores the growing demand for precise and robust medical image analysis by focusing on an advanced deep learning technique, multistage transfer learning. Over the past decade, multistage transfer learning has emerged as a pivotal strategy, particularly in overcoming challenges associated with limited medical data and model generalization. However, the absence of well-compiled literature capturing this development remains a notable gap in the field. This exhaustive investigation endeavors to address this gap by providing a foundational understanding of how multistage transfer learning approaches confront the unique challenges posed by insufficient medical image datasets. The paper offers a detailed analysis of various multistage transfer learning types, architectures, methodologies, and strategies deployed in medical image analysis. Additionally, it delves into intrinsic challenges within this framework, providing a comprehensive overview of the current state while outlining potential directions for advancing methodologies in future research. This paper underscores the transformative potential of multistage transfer learning in medical image analysis, providing valuable guidance to researchers and healthcare professionals.
+ER  - 
+TY  - JOUR
+T1  - Deep attention for enhanced OCT image analysis in clinical retinal diagnosis
+A1  - Talaat, Fatma M.
+A1  - Ali, Ahmed Ali Ahmed
+A1  - ElGendy, Raghda
+A1  - ELShafie, Mohamed A.
+Y1  - 2025/01//
+KW  - Attention-based DenseNet
+KW  - Clinical precision
+KW  - Optical coherence tomography
+KW  - Retinal disease diagnosis
+PB  - Springer Science and Business Media Deutschland GmbH
+JF  - Neural Computing and Applications
+VL  - 37
+IS  - 2
+SP  - 1105
+EP  - 1125
+DO  - 10.1007/S00521-024-10450-5
+N2  - Retinal illnesses such as age-related macular degeneration (AMD) and diabetic maculopathy pose serious risks to vision in the developed world. The diagnosis and assessment of these disorders have undergone revolutionary change with the development of optical coherence tomography (OCT). This study proposes a novel method for improving clinical precision in retinal disease diagnosis by utilizing the strength of Attention-Based DenseNet, a deep learning architecture with attention processes. For model building and evaluation, a dataset of 84495 high-resolution OCT images divided into NORMAL, CNV, DME, and DRUSEN classes was used. Data augmentation techniques were employed to enhance the model's robustness. The Attention-Based DenseNet model achieved a validation accuracy of 0.9167 with a batch size of 32 and 50 training epochs. This discovery presents a promising route for more precise and speedy identification of retinal illnesses, ultimately enhancing patient care and outcomes in clinical settings by integrating cutting-edge technology with powerful neural network architectures.
+ER  - 
+TY  - JOUR
+T1  - Advanced Hybridization and Optimization of DNNs for Medical Imaging: A Survey on Disease Detection Techniques
+A1  - Bohmrah, Maneet Kaur
+A1  - Kaur, Harjot
+Y1  - 2025/04//
+KW  - Deep neural Networks
+KW  - Explainable AI
+KW  - Feature selection algorithms
+KW  - Machine learning classifiers
+KW  - Meta-heuristic techniques
+KW  - Optimization
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 58
+IS  - 4
+DO  - 10.1007/S10462-024-11049-X
+N2  - Due to the high classification accuracy and fast computational speed offered by Deep Neural Networks (DNNs), they have been widely used for the design and development of automated Artificial Intelligence (AI) tools for the detection of various diseases. These tools, which are intensive computational learning models, hold tremendous significance in healthcare for identifying various diseases. The primary goal of this review is to understand the applicability and methodology for implementing DNNs, including computational costs, for the classification of distinct diseases from disparate medical imaging datasets. This study presents an extensive survey of DNNs along with their various hybridization forms. To achieve this, the research papers surveyed have been grouped into five categories: pretrained DNNs, hyperparameter-tuned optimized DNNs, hybrid DNNs and ML classifiers, hybrid models with optimization techniques, and meta-heuristics based feature selection DNNs. The major part of this review highlights the significant role of nature-inspired meta-heuristic techniques used for hyperparameter optimization or feature selection algorithms of DNNs. Besides the frameworks and computational costs, descriptions of disparate medical image datasets and image preprocessing techniques have also been discussed under each category. Furthermore, a comparative analysis for each category has been performed on the basis of different parameters, including the type and size of datasets used, image preprocessing, methodology (as per the mentioned category), and performance (in terms of classification accuracy). This study also presents a bibliometric analysis based on the publication count of various articles related to hyperparameter-tuned optimized DNNs and meta-heuristic based feature selection DNNs. This review aims to assist potential AI researchers in choosing the most sound and appropriate DNN-based techniques for disease detection and prediction, all consolidated into a one single research paper.
+ER  - 
+TY  - JOUR
+T1  - Robustness in deep learning models for medical diagnostics: security and adversarial challenges towards robust AI applications
+A1  - Javed, Haseeb
+A1  - El-Sappagh, Shaker
+A1  - Abuhmed, Tamer
+Y1  - 2025/01//
+KW  - AI robustness
+KW  - Adversarial attack
+KW  - Adversarial input
+KW  - Deep learning models
+KW  - Medical diagnosis
+KW  - Model security
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 58
+IS  - 1
+DO  - 10.1007/S10462-024-11005-9
+N2  - The current study investigates the robustness of deep learning models for accurate medical diagnosis systems with a specific focus on their ability to maintain performance in the presence of adversarial or noisy inputs. We examine factors that may influence model reliability, including model complexity, training data quality, and hyperparameters; we also examine security concerns related to adversarial attacks that aim to deceive models along with privacy attacks that seek to extract sensitive information. Researchers have discussed various defenses to these attacks to enhance model robustness, such as adversarial training and input preprocessing, along with mechanisms like data augmentation and uncertainty estimation. Tools and packages that extend the reliability features of deep learning frameworks such as TensorFlow and PyTorch are also being explored and evaluated. Existing evaluation metrics for robustness are additionally being discussed and evaluated. This paper concludes by discussing limitations in the existing literature and possible future research directions to continue enhancing the status of this research topic, particularly in the medical domain, with the aim of ensuring that AI systems are trustworthy, reliable, and stable.
+ER  - 
+TY  - JOUR
+T1  - Multimodal Machine Learning in Image-Based and Clinical Biomedicine: Survey and Prospects
+A1  - Warner, Elisa
+A1  - Lee, Joonsang
+A1  - Hsu, William
+A1  - Syeda-Mahmood, Tanveer
+A1  - Kahn, Charles E.
+A1  - Gevaert, Olivier
+A1  - Rao, Arvind
+Y1  - 2024/09//
+KW  - Alignment
+KW  - Artificial intelligence
+KW  - Co-learning
+KW  - Data integration
+KW  - Fusion
+KW  - Machine learning
+KW  - Multimodal
+KW  - Representation
+KW  - Translation
+PB  - Springer
+JF  - International Journal of Computer Vision
+VL  - 132
+IS  - 9
+SP  - 3753
+EP  - 3769
+DO  - 10.1007/S11263-024-02032-8
+N2  - Machine learning (ML) applications in medical artificial intelligence (AI) systems have shifted from traditional and statistical methods to increasing application of deep learning models. This survey navigates the current landscape of multimodal ML, focusing on its profound impact on medical image analysis and clinical decision support systems. Emphasizing challenges and innovations in addressing multimodal representation, fusion, translation, alignment, and co-learning, the paper explores the transformative potential of multimodal models for clinical predictions. It also highlights the need for principled assessments and practical implementation of such models, bringing attention to the dynamics between decision support systems and healthcare providers and personnel. Despite advancements, challenges such as data biases and the scarcity of “big data” in many biomedical domains persist. We conclude with a discussion on principled innovation and collaborative efforts to further the mission of seamless integration of multimodal ML models into biomedical practice.
+ER  - 
+TY  - JOUR
+T1  - QDeepColonNet: a quantum-based deep learning network for colorectal cancer classification using attention-driven DenseNet and shuffled dynamic local feature extraction network
+A1  - Ajay, Armaano
+A1  - Karthik, R.
+A1  - Bisht, Akshaj Singh
+A1  - Singh, Abhay Karan
+Y1  - 2025/10//
+KW  - Attention
+KW  - Colorectal cancer
+KW  - Deep learning
+KW  - Quantum machine learning
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 58
+IS  - 10
+DO  - 10.1007/S10462-025-11295-7
+N2  - Colorectal Cancer (CRC) is one of the most common and severe types of cancer globally, affecting millions of people each year. It primarily develops from benign polyps in the colon or rectum, which can turn malignant if not detected and treated early, leading to serious health risks. Current diagnostic methods for CRC detection are primarily manual and require significant time, resources and expertise. This creates a pressing need for automated solutions that are both efficient and highly accurate. This research proposes a hybrid Deep Learning (DL) and Quantum Machine Learning (QML)-based system for CRC classification, designed to address these challenges using a dual-track approach. The proposed QDeepColonNet leverages DL for robust feature extraction, combining DenseNet with an Enhanced Feature Learnable Group Attention (EFLGA) block to capture both high and mid-level features. Additionally, it integrates the Shuffled Dynamic Local Feature Extraction Network (SDLFEN) with a Lightweight Multi-Kernel Convolution (LMKC) block to capture short-range dependencies. The concatenated feature maps from both tracks are further refined by Efficient Channel Attention (ECA), enhancing cross-channel interactions without increasing complexity. Finally, the refined features are classified using a QML-based classifier, which effectively handles intricate data and captures complex feature relationships. To the best of our understanding, this is the first study to incorporate a QML-based hybrid classification network CRC detection. The performance of the proposed QDeepColonNet surpassed several state-of-the-art DL models and achieved a classification accuracy of 98.92% when tested on the EBHI dataset.
+ER  - 
+TY  - JOUR
+T1  - An efficient model for diabetic detection using heuristic approach based serial cascaded convolutional ensemble network
+A1  - Bejugam, Santosh Kumar
+A1  - Vankara, Jyothi
+Y1  - 2025/10//
+KW  - Diabetic detection
+KW  - Fitness-based billiards-inspired optimization
+KW  - Optimal feature selection
+KW  - Serial cascaded convolutional ensemble network
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 58
+IS  - 10
+DO  - 10.1007/S10462-025-11334-3
+N2  - Diabetes is a chronic pathology that poses significant risks to people. If diabetes is not properly diagnosed and treated, it may contribute to serious health problems. Delayed diagnosis causes many health issues and leads to numerous deaths every year. So, researchers have developed efficient diabetes detection systems for the early detection of this pathology. However, the existing model raises serious issues about the security and privacy of private medical information, and it requires rigorous safety precautions to prevent intrusions and unapproved access. In addition, the unclear characteristics of existing models cause difficulty in healthcare facilities. Thus, the advanced deep learning-based diabetic detection model was designed in this work to overcome these challenges. Also, it aims to detect diabetics and helps to prevent the progression of diabetes in patients. At first, the required data is gathered from the online data source and then fed to the optimal feature selection phase. Here, the features and weight are optimally selected using the Fitness-based Billiards-Inspired Optimization (FBIO) algorithm. This process helps the model to focus on the most impactful information within the data. Further, the obtained optimal weighted feature is passed to the Serial Cascaded Convolutional Ensemble Network (SCCEN) for detection. Here, the SCCEN model serially cascades techniques such as Convolutional Autoencoder (CAE), “1-dimensional Convolutional Neural Network” (1DCNN), and “Convolutional Long Short-Term Memory” (ConvLSTM). This process helps to improve the detection accuracy. Finally, the designed approach’s effectiveness is analyzed by comparing its performance with existing techniques. The suggested approach’s accuracy for dataset-1 is 97.4%, dataset-2 is 97.31%, and dataset-3 is 96.69%, which is higher than the conventional techniques and optimization algorithms. Thus, the result proved that the introduced framework can detect diabetics in premature stages and help the patient to take suitable treatment.
+ER  - 
+TY  - JOUR
+T1  - Advancement in public health through machine learning: a narrative review of opportunities and ethical considerations
+A1  - Dhanda, Sumit Singh
+A1  - Panwar, Deepak
+A1  - Lin, Chia Chen
+A1  - Sharma, Tarun Kumar
+A1  - Rastogi, Deependra
+A1  - Bindewari, Shantanu
+A1  - Singh, Anand
+A1  - Li, Yung Hui
+A1  - Agarwal, Neha
+A1  - Agarwal, Saurabh
+Y1  - 2025/12//
+KW  - Artificial intelligence
+KW  - Genomic data analysis
+KW  - Machine learning
+KW  - Mental health
+KW  - Personalized medicine
+KW  - Public health
+KW  - Resource allocation and optimization
+PB  - Springer Nature
+JF  - Journal of Big Data
+VL  - 12
+IS  - 1
+DO  - 10.1186/S40537-025-01201-X
+N2  - This narrative review presents a comprehensive and state-of-the-art synthesis of how machine learning (ML) is transforming public health through enhanced prediction, personalized treatment, real-time surveillance, and intelligent resource optimization. Drawing from 170 peer-reviewed studies published up to 2024/2025, this work uniquely integrates cross-domain insights spanning disease outbreak forecasting, genomic data analysis, personalized medicine, mental health monitoring, and public health infrastructure planning. The novelty of this review lies in its multidimensionality. It merges technical efficacy, ethical challenges, and future trends into a unified narrative. Our findings show substantial performance gains across domains: for example, ML models such as LightGBM, GRU neural networks, and LSTM achieved disease prediction accuracies ranging from 88 to 95%. In genomics, ML methods enabled nuanced disease subtype discovery and improved the accuracy of cancer risk assessment and pharmacogenomic modeling. Mental health prediction systems based on NLP and wearable data delivered up to 91% accuracy in stress and depression detection, while hospital resource forecasting models using deep learning minimized errors in predicting emergency admissions. Ethically, this review surfaces critical issues, including algorithmic bias, data privacy concerns in mental health analytics, and the interpretability of black-box models used in outbreak surveillance. A forward-looking discussion identifies future priorities such as the integration of multi-omics data, deployment of explainable AI, and equitable data inclusion frameworks. This review stands out by not only cataloguing applications but also offering a systems-level perspective on how ML can equitably and ethically scale to support public health strategies globally. It is among the first narrative reviews to concurrently evaluate ML’s predictive power, ethical constraints, and domain-specific improvements across all core pillars of public health.
+ER  - 
+TY  - JOUR
+T1  - DR-MAE: Self-supervised learning for diabetic retinopathy grading based on masked autoencoder
+A1  - Ren, Yanyou
+A1  - Shao, Dangguo
+A1  - Yi, Sanli
+Y1  - 2025/10//
+KW  - DR-Masking Strategy
+KW  - Diabetic Retinopathy Grading
+KW  - Masked Autoencoder
+KW  - Self-Supervised Learning
+PB  - Springer International Publishing
+JF  - Journal of King Saud University - Computer and Information Sciences
+VL  - 37
+IS  - 8
+DO  - 10.1007/S44443-025-00159-3
+N2  - Precise grading of diabetic retinopathy (DR) is crucial for preventing vision loss. Existing deep learning methods face challenges including scarcity of annotated data, difficulty in identifying subtle lesions, and insufficient local–global feature modeling. This paper proposes DR-MAE, an anatomy-guided masked autoencoder self-supervised learning framework. The main innovations include: (1) DR-Masking strategy, which generates intelligent masks based on optic disc localization and vascular topology analysis, avoiding the destruction of critical regions by random masking; (2) Hybrid Dimensional Convolution Block (HDC Block), which integrates multi-scale dynamic modules and global context attention modules to achieve multi-scale feature extraction and local–global feature interaction. Experiments on APTOS 2019 and DDR datasets demonstrate that DR-MAE achieves grading accuracies of 91.30% and 86.64% respectively, representing state-of-the-art performance. Ablation experiments validate the effectiveness of each component, proving the advantages of anatomy-guided self-supervised learning in DR grading.
+ER  - 
+TY  - JOUR
+T1  - Edge deep learning in computer vision and medical diagnostics: a comprehensive survey
+A1  - Xu, Yiwen
+A1  - Khan, Tariq M.
+A1  - Song, Yang
+A1  - Meijering, Erik
+Y1  - 2025/03//
+KW  - Computer vision
+KW  - Deep learning
+KW  - Edge computing
+KW  - Lightweight neural networks
+KW  - Medical diagnostics
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 58
+IS  - 3
+DO  - 10.1007/S10462-024-11033-5
+N2  - Edge deep learning, a paradigm change reconciling edge computing and deep learning, facilitates real-time decision making attuned to environmental factors through the close integration of computational resources and data sources. Here we provide a comprehensive review of the current state of the art in edge deep learning, focusing on computer vision applications, in particular medical diagnostics. An overview of the foundational principles and technical advantages of edge deep learning is presented, emphasising the capacity of this technology to revolutionise a wide range of domains. Furthermore, we present a novel categorisation of edge hardware platforms based on performance and usage scenarios, facilitating platform selection and operational effectiveness. Following this, we dive into approaches to effectively implement deep neural networks on edge devices, encompassing methods such as lightweight design and model compression. Reviewing practical applications in the fields of computer vision in general and medical diagnostics in particular, we demonstrate the profound impact edge-deployed deep learning models can have in real-life situations. Finally, we provide an analysis of potential future directions and obstacles to the adoption of edge deep learning, with the intention to stimulate further investigations and advancements of intelligent edge deep learning solutions. This survey provides researchers and practitioners with a comprehensive reference shedding light on the critical role deep learning plays in the advancement of edge computing applications.
+ER  - 
+TY  - JOUR
+T1  - A robust MRI-based brain tumor classification via a hybrid deep learning technique
+A1  - Nassar, Shaimaa E.
+A1  - Yasser, Ibrahim
+A1  - Amer, Hanan M.
+A1  - Mohamed, Mohamed A.
+Y1  - 2024/01//
+KW  - Brain tumor
+KW  - Deep learning
+KW  - Image classification
+KW  - Magnetic resonance imaging
+PB  - Springer
+JF  - Journal of Supercomputing
+VL  - 80
+IS  - 2
+SP  - 2403
+EP  - 2427
+DO  - 10.1007/S11227-023-05549-W
+N2  - The brain is the most vital component of the neurological system. Therefore, brain tumor classification is a very challenging task in the field of medical image analysis. There has been a qualitative leap in the field of artificial intelligence, deep learning, and their medical imaging applications in the last decade. The importance of this remarkable development has emerged in the field of biomedical engineering due to the sensitivity and seriousness of the issues related to it. The use of deep learning in the field of detecting and classifying tumors in general and brain tumors in particular using magnetic resonance imaging (MRI) is a crucial factor in the accuracy and speed of diagnosis. This is due to its great ability to deal with huge amounts of data and avoid errors resulting from human intervention. The aim of this research is to develop an efficient automated approach for classifying brain tumors to assist radiologists instead of consuming time looking at several images for a precise diagnosis. The proposed approach is based on 3064 T1-weighted contrast-enhanced brain MR images (T1W-CE MRI) from 233 patients. In this study, the proposed system is based on the results of five different models to use the combined potential of multiple models, trying to achieve promising results. The proposed system has led to a significant improvement in the results, with an overall accuracy of 99.31%.
+ER  - 
+TY  - JOUR
+T1  - OBoctNet: Enhancing Ophthalmic Biomarker Detection Through Active Learning and Explainable AI in Radiological Analysis
+A1  - Acharja, Samya
+A1  - Hasan, Md Zahid
+A1  - Chamok, Farjana Haque
+A1  - Fahim, Kayes Uddin
+A1  - Shuva, Taslima Ferdaus
+A1  - Bulbul, Abdullah Al Mamun
+A1  - Khan, Risala Tasin
+A1  - Rahman, Md Tanvir
+A1  - Kaiser, M. Shamim
+A1  - Mahmud, Mufti
+A1  - Moni, Mohammad Ali
+Y1  - 2025/06//
+KW  - Active learning
+KW  - Biomarker identification
+KW  - GradCAM
+KW  - Ophthalmic diseases
+KW  - Optical coherence tomography
+KW  - Semi-supervised learning
+PB  - Springer
+JF  - Cognitive Computation
+VL  - 17
+IS  - 3
+DO  - 10.1007/S12559-025-10451-Z
+N2  - Optical coherence tomography (OCT) scanning is crucial for the diagnosis of widespread ophthalmic diseases. Traditionally, experts manually identify diseases and biomarkers from OCT scans. Recently, modern medical imaging practices have increasingly utilized deep learning techniques to speed up and improve diagnostic accuracy in ophthalmology. However, obtaining accurately labeled datasets is a significant challenge in medical imaging due to the expertise required for precise annotation by trained professionals. This article presents a novel method, named OBoctNet, with a new two-stage training strategy to improve the identification of ophthalmic biomarkers using OCT scans from the OLIVES dataset, which contains only 12% labeled data. This approach leverages a robust methodology that effectively uses labeled and unlabeled data to enhance biomarker identification accuracy, achieving a cumulative performance increase of 23% across 50% of the biomarkers when compared to the previous studies. To better identify biomarkers, the OBoctNet employs an active learning strategy that uses unlabeled data and dynamically ensembles models based on their performance within each experimental setup. Additionally, the usage of Gradient weighted Class Activation Mapping (GradCAM) helps identify regions of interest associated with relevant biomarkers, enhancing interpretability and transparency for potential clinical adoption.
+ER  - 
+TY  - JOUR
+T1  - Diabetic retinopathy detection using supervised and unsupervised deep learning: a review study
+A1  - Naz, Huma
+A1  - Ahuja, Neelu Jyothi
+A1  - Nijhawan, Rahul
+Y1  - 2024/05//
+KW  - DR detection
+KW  - Diabetic Retinopathy review
+KW  - Supervised learning
+KW  - Unsupervised deep learning
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 57
+IS  - 5
+DO  - 10.1007/S10462-024-10770-X
+N2  - The severe progression of Diabetes Mellitus (DM) stands out as one of the most significant concerns for healthcare officials worldwide. Diabetic Retinopathy (DR) is a common complication associated with diabetes, particularly affecting individuals between the ages of 18 and 65. As per the findings of the International Diabetes Federation (IDF) report, 35–60% of individuals suffering from DR possess a diabetes history. DR emerges as a leading cause of worldwide visual impairment. Due to the absence of ophthalmologists worldwide, insufficient health resources, and healthcare services, patients cannot get timely eye screening services. Automated computer-aided detection of DR provides a wide range of potential benefits. In contrast to traditional observer-driven techniques, automatic detection allows for a more objective analysis of numerous images in a shorter time. Moreover, Unsupervised Learning (UL) holds a high potential for image classification in healthcare, particularly regarding explainability and interpretability. Many studies on the detection of DR with both supervised and unsupervised Deep Learning (DL) methodologies are available. Surprisingly, none of the reviews presented thus far have highlighted the potential benefits of both supervised and unsupervised DL methods in Medical Imaging for the detection of DR. After a rigorous selection process, 103 articles were retrieved from four diverse and well-known databases (Web of Science, Scopus, ScienceDirect, and IEEE). This review provides a comprehensive summary of both supervised and unsupervised DL methods applied in DR detection, explaining the significant benefits of both techniques and covering aspects such as datasets, pre-processing, segmentation techniques, and supervised and unsupervised DL methods for detection. The insights from this review will aid academics and researchers in medical imaging to make informed decisions and choose the best practices for DR detection.
+ER  - 
+TY  - JOUR
+T1  - Evaluating AI-powered predictive solutions for MRI in lumbar spinal stenosis: a systematic review
+A1  - Al-antari, Mugahed A.
+A1  - Salem, Saied
+A1  - Raza, Mukhlis
+A1  - Elbadawy, Ahmed S.
+A1  - Bütün, Ertan
+A1  - Aydin, Ahmet Arif
+A1  - Aydoğan, Murat
+A1  - Ertuğrul, Bilal
+A1  - Talo, Muhammed
+A1  - Gu, Yeong Hyeon
+Y1  - 2025/08//
+KW  - Explainable artificial intelligence (XAI)
+KW  - Harmonization
+KW  - LSS prediction
+KW  - Large language models (LLMs)
+KW  - Lumbar spinal stenosis (LSS)
+KW  - Spinal LSS indices measurements
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 58
+IS  - 8
+DO  - 10.1007/S10462-025-11185-Y
+N2  - Lumbar spinal stenosis (LSS) involves the narrowing of the spinal canal, leading to compression of the spinal cord and nerves in the lower back. Common causes include injuries, degenerative age-related changes, congenital conditions, and tumors, all of which contribute to back pain. Early diagnosis is critical for symptom management, preventing progression, and preserving quality of life. This study systematically reviews AI-based approaches for predicting LSS using MRI axial and sagittal imaging. The review focuses on various AI tasks: detection, segmentation, classification, hybrid approaches, spinal index measurements (SIM), and explainable AI frameworks. The aim is to highlight current knowledge, identify limitations in existing models, and propose future research directions. Following PRISMA guidelines and the PICO method (Population, Intervention, Comparison, Outcome), the review collects data from databases like PubMed, Web of Science, ScienceDirect, and IEEE Xplore (2005–2024). The Rayyan AI tool is used for duplicate removal and screening. The screening process includes an initial review of titles and abstracts, followed by full-text appraisal. The Meta Quality Appraisal Tool (MetaQAT) assesses the quality of selected articles. Of 1323 records, 97 duplicates were removed. After screening, 895 records were excluded, leaving 331 for full-text review. Among these, 184 articles were excluded for lacking AI relevance. Ultimately, 95 key articles (91 technical papers and 4 reviews) were identified for their contributions to AI-based LSS prediction. This review provides a comprehensive analysis of AI techniques in LSS prediction, guiding future research and advancing understanding in areas like explainable AI and large language models (LLMs).
+ER  - 
+TY  - JOUR
+T1  - A new Covid-19 diagnosis strategy using a modified KNN classifier
+A1  - Rabie, Asmaa H.
+A1  - Mohamed, Alaa M.
+A1  - Abo-Elsoud, M. A.
+A1  - Saleh, Ahmed I.
+Y1  - 2023/08//
+KW  - BGWO
+KW  - Covid-19
+KW  - Diagnosis
+KW  - Feature selection
+KW  - KNN
+KW  - NB
+PB  - Springer Science and Business Media Deutschland GmbH
+JF  - Neural Computing and Applications
+VL  - 35
+IS  - 23
+SP  - 17349
+EP  - 17373
+DO  - 10.1007/S00521-023-08588-9
+N2  - Covid-19 is a very dangerous disease as a result of the rapid and unprecedented spread of any previous disease. It is truly a crisis that threatens the world since its first appearance in December 2019 until our time. Due to the lack of a vaccine that has proved sufficiently effective so far, the rapid and more accurate diagnosis of this disease is extremely necessary to enable the medical staff to identify infected cases and isolate them from the rest to prevent further loss of life. In this paper, Covid-19 diagnostic strategy (CDS) as a new classification strategy that consists of two basic phases: Feature selection phase (FSP) and diagnosis phase (DP) has been introduced. During the first phase called FSP, the best set of features in laboratory test findings for Covid-19 patients will be selected using enhanced gray wolf optimization (EGWO). EGWO combines both types of selection techniques called wrapper and filter. Accordingly, EGWO includes two stages called filter stage (FS) and wrapper stage (WS). While FS uses many different filter methods, WS uses a wrapper method called binary gray wolf optimization (BGWO). The second phase called DP aims to give fast and more accurate diagnosis using a hybrid diagnosis methodology (HDM) based on the selected features from FSP. In fact, the HDM consists of two phases called weighting patient phase (WP2) and diagnostic patient phase (DP2). WP2 aims to calculate the belonging degree of each patient in the testing dataset to class category using naïve Bayes (NB) as a weight method. On the other hand, K-nearest neighbor (KNN) will be used in DP2 based on the weights of patients in the testing dataset as a new training dataset to give rapid and more accurate detection. The suggested CDS outperforms other strategies according to accuracy, precision, recall (or sensitivity) and F-measure calculations that are equal to 99%, 88%, 90% and 91%, respectively, as showed in experimental results.
+ER  - 
+TY  - JOUR
+T1  - Diabetes detection based on machine learning and deep learning approaches
+A1  - Wee, Boon Feng
+A1  - Sivakumar, Saaveethya
+A1  - Lim, King Hann
+A1  - Wong, W. K.
+A1  - Juwono, Filbert H.
+Y1  - 2024/03//
+KW  - Anthropometric measurement
+KW  - Deep learning
+KW  - Diabetes detection
+KW  - Feature selection
+KW  - Machine learning
+PB  - Springer
+JF  - Multimedia Tools and Applications
+VL  - 83
+IS  - 8
+SP  - 24153
+EP  - 24185
+DO  - 10.1007/S11042-023-16407-5
+N2  - The increasing number of diabetes individuals in the globe has alarmed the medical sector to seek alternatives to improve their medical technologies. Machine learning and deep learning approaches are active research in developing intelligent and efficient diabetes detection systems. This study profoundly investigates and discusses the impacts of the latest machine learning and deep learning approaches in diabetes identification/classifications. It is observed that diabetes data are limited in availability. Available databases comprise lab-based and invasive test measurements. Investigating anthropometric measurements and non-invasive tests must be performed to create a cost-effective yet high-performance solution. Several findings showed the possibility of reconstructing the detection models based on anthropometric measurements and non-invasive medical indicators. This study investigated the consequences of oversampling techniques and data dimensionality reduction through feature selection approaches. The future direction is highlighted in the research of feature selection approaches to improve the accuracy and reliability of diabetes identifications.
+ER  - 
+TY  - JOUR
+T1  - Deep learning techniques for detection and prediction of pandemic diseases: a systematic literature review
+A1  - Ajagbe, Sunday Adeola
+A1  - Adigun, Matthew O.
+Y1  - 2024/01//
+KW  - Artificial intelligence (AI)
+KW  - Deep learning (DL)
+KW  - Infectious diseases (IDs)
+KW  - Machine learning (ML)
+KW  - Optimization techniques
+KW  - Pandemic
+PB  - Springer
+JF  - Multimedia Tools and Applications
+VL  - 83
+IS  - 2
+SP  - 5893
+EP  - 5927
+DO  - 10.1007/S11042-023-15805-Z
+N2  - Deep learning (DL) is becoming a fast-growing field in the medical domain and it helps in the timely detection of any infectious disease (IDs) and is essential to the management of diseases and the prediction of future occurrences. Many scientists and scholars have implemented DL techniques for the detection and prediction of pandemics, IDs and other healthcare-related purposes, these outcomes are with various limitations and research gaps. For the purpose of achieving an accurate, efficient and less complicated DL-based system for the detection and prediction of pandemics, therefore, this study carried out a systematic literature review (SLR) on the detection and prediction of pandemics using DL techniques. The survey is anchored by four objectives and a state-of-the-art review of forty-five papers out of seven hundred and ninety papers retrieved from different scholarly databases was carried out in this study to analyze and evaluate the trend of DL techniques application areas in the detection and prediction of pandemics. This study used various tables and graphs to analyze the extracted related articles from various online scholarly repositories and the analysis showed that DL techniques have a good tool in pandemic detection and prediction. Scopus and Web of Science repositories are given attention in this current because they contain suitable scientific findings in the subject area. Finally, the state-of-the-art review presents forty-four (44) studies of various DL technique performances. The challenges identified from the literature include the low performance of the model due to computational complexities, improper labeling and the absence of a high-quality dataset among others. This survey suggests possible solutions such as the development of improved DL-based techniques or the reduction of the output layer of DL-based architecture for the detection and prediction of pandemic-prone diseases as future considerations.
+ER  - 
+TY  - JOUR
+T1  - A survey of uncertainty in deep neural networks
+A1  - Gawlikowski, Jakob
+A1  - Tassi, Cedrique Rovile Njieutcheu
+A1  - Ali, Mohsin
+A1  - Lee, Jongseok
+A1  - Humt, Matthias
+A1  - Feng, Jianxiang
+A1  - Kruspe, Anna
+A1  - Triebel, Rudolph
+A1  - Jung, Peter
+A1  - Roscher, Ribana
+A1  - Shahzad, Muhammad
+A1  - Yang, Wen
+A1  - Bamler, Richard
+A1  - Zhu, Xiao Xiang
+Y1  - 2023/10//
+KW  - Bayesian deep neural networks
+KW  - Calibration
+KW  - Ensembles
+KW  - Test-time augmentation
+KW  - Uncertainty
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 56
+SP  - 1513
+EP  - 1589
+DO  - 10.1007/S10462-023-10562-9
+N2  - Over the last decade, neural networks have reached almost every field of science and become a crucial part of various real world applications. Due to the increasing spread, confidence in neural network predictions has become more and more important. However, basic neural networks do not deliver certainty estimates or suffer from over- or under-confidence, i.e. are badly calibrated. To overcome this, many researchers have been working on understanding and quantifying uncertainty in a neural network’s prediction. As a result, different types and sources of uncertainty have been identified and various approaches to measure and quantify uncertainty in neural networks have been proposed. This work gives a comprehensive overview of uncertainty estimation in neural networks, reviews recent advances in the field, highlights current challenges, and identifies potential research opportunities. It is intended to give anyone interested in uncertainty estimation in neural networks a broad overview and introduction, without presupposing prior knowledge in this field. For that, a comprehensive introduction to the most crucial sources of uncertainty is given and their separation into reducible model uncertainty and irreducible data uncertainty is presented. The modeling of these uncertainties based on deterministic neural networks, Bayesian neural networks (BNNs), ensemble of neural networks, and test-time data augmentation approaches is introduced and different branches of these fields as well as the latest developments are discussed. For a practical application, we discuss different measures of uncertainty, approaches for calibrating neural networks, and give an overview of existing baselines and available implementations. Different examples from the wide spectrum of challenges in the fields of medical image analysis, robotics, and earth observation give an idea of the needs and challenges regarding uncertainties in the practical applications of neural networks. Additionally, the practical limitations of uncertainty quantification methods in neural networks for mission- and safety-critical real world applications are discussed and an outlook on the next steps towards a broader usage of such methods is given.
+ER  - 
+TY  - JOUR
+T1  - Early Detection and Severity Classification of Diabetic Retinopathy Using Convolutional Neural Networks
+A1  - Karthik, S. A.
+A1  - Geetha, M. N.
+A1  - Prabhavathi, K.
+A1  - Shashank, Dhananjaya
+A1  - Suhaas, K. P.
+A1  - Narender, M.
+Y1  - 2025/10//
+KW  - APTOS dataset
+KW  - Binary classification
+KW  - DR severity classification
+KW  - Deep learning (DL)
+KW  - Diabetic retinopathy
+KW  - Early disease detection
+KW  - Fundus imaging
+KW  - Neural networks
+PB  - Springer
+JF  - SN Computer Science
+VL  - 6
+IS  - 7
+DO  - 10.1007/S42979-025-04361-Y
+N2  - Diabetic retinopathy (DR) has become a leading cause of blindness, and detection of the condition at an early stage is important for successful treatment. Nonetheless, it is quite difficult to detect DR in its initial stages in areas with a lack of medical care. This research seeks to develop a neural network that will have the ability to (1) detecting the presence or absence of DR, (2) early, detection (3) classification of severity of DR. We used the APTOS DR dataset that contains 3681 fundus images with DR ratings from 0 (no DR) to 4 (severe proliferative DR). Three distinct models were trained: a binary classifier, an early detector, and a severity classifier that use a neural network with three convolutional layers, a global average pooling layer, and three fully connected layers. The models were cross-validated, with a fivefold used, tracking the training and validation accuracy. The binary classifier was able to have a validation accuracy of 96.2% and an AUC of 0.992, which is higher than existing models in the literature. Early detector managed to have 86% accuracy but had difficulty distinguishing between early and severe DR. The accuracy of the severity classifier was 79.4%, being very successful in detecting healthy subjects but failing to classify more severe cases, possibly because of the model’s inability to discriminate against slight differences between later DR degrees. Such results show the effectiveness of the NN usage in the diagnostics of DR and its classification, but still, more work is required for better severity prediction.
+ER  - 
+TY  - JOUR
+T1  - An optimized hybrid ensemble machine learning model combining multiple classifiers for detecting advanced persistent threats in networks
+A1  - Ibrahim, Nadim
+A1  - Rajalakshmi, N. R.
+A1  - Sivakumar, V.
+A1  - Sharmila, L.
+Y1  - 2025/12//
+KW  - Advanced persistent threats
+KW  - Ensemble learning
+KW  - KNN
+KW  - LSTM
+KW  - Logistic regression
+KW  - Machine learning
+PB  - Springer Nature
+JF  - Journal of Big Data
+VL  - 12
+IS  - 1
+DO  - 10.1186/S40537-025-01272-W
+N2  - Advanced Persistent Threats (APTs) are among the most dangerous cyberattacks due to their stealth, persistence, and ability to evade traditional intrusion detection systems. This study proposes a novel and optimized hybrid ensemble-based machine learning model for detecting APTs, using the realistically simulated Unraveled dataset, which captures long-term, stealthy attack behaviors often missed by conventional datasets. Existing machine learning models often fall short in identifying such threats, particularly due to their inability to capture temporal dependencies and their reliance on monolithic feature spaces that limit adaptability. The model integrates Long Short-Term Memory (LSTM) networks, K-Nearest Neighbors (KNN), and Logistic Regression (LR) algorithms to leverage the unique strengths of each. A key novelty lies in the logical division of the top 21 predictive features across the three classifiers based on their suitability for temporal, statistical, and relational patterns. Feature selection techniques, including Information Value (IV), Weight of Evidence (WoE), and XGBoost were employed to identify these features. The initial ensemble model achieved 97.12% accuracy, demonstrating its effectiveness even before optimization. After fine-tuning LSTM and LR, the accuracy improves to 99.94%. This 2.82% gain confirms the impact of model-specific tuning and feature partitioning. This significant performance improvement highlights the critical role of strategic feature partitioning and individualized model tuning in enhancing APT detection capabilities. The proposed approach offers a scalable and interpretable solution to address the complex nature of APTs and strengthens the robustness of modern intrusion detection systems.
+ER  - 
+TY  - JOUR
+T1  - Multiplier leadership optimization algorithm (MLOA): unconstrained global optimization approach for melanoma classification
+A1  - Ghosh, Sukanta
+A1  - Singh, Amar
+A1  - Kumar, Shakti
+Y1  - 2025/12//
+KW  - Bio-inspired computing
+KW  - Image classification
+KW  - Melanoma
+KW  - Multiplier leadership
+KW  - Optimization
+PB  - Springer Nature
+JF  - Discover Internet of Things
+VL  - 5
+IS  - 1
+DO  - 10.1007/S43926-025-00168-8
+N2  - This paper proposes the multiplier leadership optimization algorithm, which draws inspiration from multiplier leadership principles to search for and optimize solutions to complex problems effectively. Multiplier leaders possess the unique ability to amplify their teams’ collective intelligence and capabilities. They cultivate an environment of open discussion, creative thinking, accountability, and motivating team members to excel. The proposed algorithm is implemented in MATLAB, and its performance is evaluated on the IEEE Congress on Evolutionary Computation 2021 test bench suite, which consists of 80 benchmark functions. The performance of the proposed approach is compared with those of the other 9 other state-of-the-art optimization algorithms. The proposed algorithm successfully solved 47 out of 80 benchmark functions, demonstrating its superior performance. The computational complexity of proposed algorithm is O(M∗N2), making it efficient for large-scale problems. Furthermore, this paper proposes an MLOA-based approach to evolve the near-optimal architecture of convolution neural networks for Melanoma classification. The proposed approach is implemented in Python and tested on the PH2 and ISIC2020 datasets. The PH2 dataset consists of 200 dermoscopic images, while the ISIC2020 dataset comprises 33,126 images. The proposed approach is compared with 12 other state-of-the-art methods and achieves high classification accuracies of 98.97% on the PH2 dataset and 99.47% on the ISIC2020 dataset. Additional performance metrics include precision of 98.72%, recall of 98.85%, and F1-score of 98.78% on the PH2 dataset, while on the ISIC2020 dataset, it achieves precision of 99.32%, recall of 99.51%, and F1-score of 99.41%. The results indicate that MLOA-based CNN architecture outperforms all existing approaches for Melanoma classification, offering a promising solution for medical image analysis.
+ER  - 
+TY  - JOUR
+T1  - Four-way classification of Alzheimer’s disease using deep Siamese convolutional neural network with triplet-loss function
+A1  - Hajamohideen, Faizal
+A1  - Shaffi, Noushath
+A1  - Mahmud, Mufti
+A1  - Subramanian, Karthikeyan
+A1  - Al Sariri, Arwa
+A1  - Vimbi, Viswan
+A1  - Abdesselam, Abdelhamid
+Y1  - 2023/12//
+KW  - Alzheimer’s disease
+KW  - Classification
+KW  - MRI
+KW  - Mild cognitive impairment
+KW  - Siamese
+KW  - Triplet-loss
+PB  - Springer Science and Business Media Deutschland GmbH
+JF  - Brain Informatics
+VL  - 10
+IS  - 1
+DO  - 10.1186/S40708-023-00184-W
+N2  - Alzheimer’s disease (AD) is a neurodegenerative disease that causes irreversible damage to several brain regions, including the hippocampus causing impairment in cognition, function, and behaviour. Early diagnosis of the disease will reduce the suffering of the patients and their family members. Towards this aim, in this paper, we propose a Siamese Convolutional Neural Network (SCNN) architecture that employs the triplet-loss function for the representation of input MRI images as k-dimensional embeddings. We used both pre-trained and non-pretrained CNNs to transform images into the embedding space. These embeddings are subsequently used for the 4-way classification of Alzheimer’s disease. The model efficacy was tested using the ADNI and OASIS datasets which produced an accuracy of 91.83% and 93.85%, respectively. Furthermore, obtained results are compared with similar methods proposed in the literature.
+ER  - 
+TY  - ICOMM
+T1  - Search research articles and books | Springer Nature Link
+UR  - https://link.springer.com/search?query=Diabetic+retinopathy+AND+hybrid+deep+learning&content-type=Research&language=En&facet-discipline=%22Computer+Science%22&taxonomy=%22Machine+Learning%22&openAccess=true&date=custom&dateFrom=2023&dateTo=2025&sortBy=rel
+UR  - https://link.springer.com/search?query=Diabetic+retinopathy+AND+hybrid+deep+learning&content-type=Research&language=En&facet-discipline=%22Computer+Science%22&openAccess=true&date=custom&dateFrom=2023&dateTo=2025&sortBy=relevance&page=2
+UR  - https://link.springer.com/search?query=Diabetic+retinopathy+AND+hybrid+deep+learning&content-type=Research&language=En&facet-discipline=%22Computer+Science%22&openAccess=true&date=custom&dateFrom=2023&dateTo=2025&sortBy=relevance&page=4
+UR  - https://link.springer.com/search?query=Diabetic+retinopathy+AND+hybrid+deep+learning&content-type=Research&language=En&facet-discipline=%22Computer+Science%22&openAccess=true&date=custom&dateFrom=2023&dateTo=2025&sortBy=relevance&page=3
+UR  - https://link.springer.com/search?query=Diabetic+retinopathy+AND+hybrid+deep+learning&content-type=Research&language=En&facet-discipline=%22Computer+Science%22&openAccess=true&date=custom&dateFrom=2023&dateTo=2025&sortBy=relevance
+ER  - 
+TY  - JOUR
+T1  - Adaptive hybrid hyperparameter optimization with MRFO and Lévy flight for accurate melanoma classification
+A1  - Adamu, Shamsuddeen
+A1  - Alhussian, Hitham
+A1  - Abdulkadir, Said Jadid
+A1  - Alwadin, Ayed
+A1  - Khairy, Sallam O. F
+A1  - Mamman, Hussaini
+A1  - Abdullahi, Shamsu
+A1  - Yahaya, Saidu
+A1  - Garba, Aliyu
+A1  - Aliyu, Dahiru Adamu
+A1  - Yakubu, Muhammad Muntasir
+A1  - Oyefidein, Daniel Tonye
+Y1  - 2025/06//
+KW  - Deep learning
+KW  - Hyperparameter optimization
+KW  - MRFO-LF
+KW  - Medical imaging
+KW  - Melanoma classification
+PB  - Springer International Publishing
+JF  - Journal of King Saud University - Computer and Information Sciences
+VL  - 37
+IS  - 4
+DO  - 10.1007/S44443-025-00078-3
+N2  - Hyperparameter optimization (HPO) is essential for deep learning in medical image classification, yet standard metaheuristics such as Manta Ray Foraging Optimization (MRFO) often suffer from premature convergence in high-dimensional search spaces. To address these limitations, an enhanced variant, MRFO-LF, was proposed by incorporating Lévy flight-based exploration, adaptive step-size decay, and a hybrid stochastic–deterministic search mechanism. This work details the first application of the proposed MRFO-LF to HPO in melanoma classification, a critical task within medical image analysis. The Lévy component enables long-range perturbations, while the adaptive decay mechanism gradually narrows the search scope, and the hybrid strategy balances global versus local exploration without relying on problem-specific heuristics. Experiments were conducted on the ISIC and PH2 dermoscopic datasets using DenseNet121, InceptionV3, and VGG19. MRFO-LF attained peak validation accuracies of 99.49% (ISIC) and 100.00% (PH2) for DenseNet121, with corresponding validation losses of 0.3580 and 0.0015. When compared to MRFO, PSO, and GA, the proposed method improved ISIC accuracy by 0.40%, reduced PH2 loss by over 95%, and converged up to 30% faster. Statistical significance was confirmed through ANOVA and paired t-tests (p<0.05). These results position MRFO-LF as a reliable and efficient optimizer for complex hyperparameter tuning in medical image classification.
+ER  - 
+TY  - JOUR
+T1  - Dye-cleaning prediction with a variant of nature-inspired algorithms coupled with extreme gradient boosting
+A1  - Tiyasha, Tiyasha
+A1  - Onu, Chijioke Elijah
+A1  - Ismail, Mohamed A.
+A1  - Karri, Rama Rao
+A1  - Amari, Abdelfattah
+A1  - Kumar, Vinay
+A1  - Bhagat, Suraj Kumar
+Y1  - 2025/12//
+KW  - Dye removal
+KW  - Machine learning
+KW  - Prediction
+KW  - Wastewater treatment
+PB  - Springer Nature
+JF  - Journal of Big Data
+VL  - 12
+IS  - 1
+DO  - 10.1186/S40537-025-01110-Z
+N2  - This research proposes the use of hybrid machine learning methods to mimic dye removal efficiency. Hyperparameter tuning via differential evolution (DE), genetic algorithm (GA), random search (RS), and grid search (GS) with the XGBoost model was conducted to achieve more accurate results. This study focused on the relationships between the initial dye concentrations of Fast Green, Eosin Y, and Quinine Yellow dyes, their initial pH, ACMOF adsorbent dosage (activated carbons: metal‒organic frameworks), and sonication time as input variables, with the removal percentage as the output data. The analysis emphasized the correlation between the inputs and outputs, resulting in the generation of four scenarios: 4 inputs, 3 inputs, 2 inputs, and 1 input. The correlation analysis revealed a weak input‒output relationship and the presence of outliers in the data. The use of advanced models, such as XGBoost, improved model performance and accurately predicted dye removal efficiency. The models performed well across different input scenarios, demonstrating their reliability and effectiveness. The results also revealed the importance of data preprocessing techniques in improving the structure and relationships within the data. The DE_XGBoost model outperforms all the other methods in terms of R2 (R2 values of 0.977, 0.958, 0.924, and 0.997 for 4-input, 3-input, 2-input, and 1-input, respectively), demonstrating its DE effectiveness in generalizing the model and enhancing its predictivity. This research contributes to the development of more efficient techniques for dye removal and environmental pollution mitigation, addressing the challenges of traditional testing methods. These findings have implications for industries that use dyes and can help mitigate the environmental pollution caused by dye effluents.
+ER  - 
+TY  - JOUR
+T1  - A comprehensive review of AI methods in upper extremity/limb bone fracture detection
+A1  - Pour, Zahra Moradi
+A1  - Berretti, Stefano
+Y1  - 2025/10//
+KW  - Arm
+KW  - Artificial intelligence
+KW  - Deep learning
+KW  - Elbow
+KW  - Forearm
+KW  - Fracture detection
+KW  - Image processing
+KW  - Medical images
+KW  - Shoulder
+KW  - Upper extremity/limb
+KW  - Wrist
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 58
+IS  - 10
+DO  - 10.1007/S10462-025-11296-6
+N2  - Accurate detection of bone fractures is crucial for patient care, however, the traditional manual review of medical images like X-rays, Computed Tomography (CT) scans, Magnetic Resonance Imaging (MRIs), and ultrasounds is time-consuming and labor-intensive. The shortage of clinicians, limited access to expert radiologists, and heavy workloads increase the risk of errors, which can slow down patients recovery. Artificial Intelligence (AI) models like Faster R-CNN have shown significant diagnostic accuracy (ACC) and sensitivity (SEN), often outperforming on-call radiologists in detecting complex fracture types. For example, Faster R-CNN has achieved SEN exceeding 90% in distal radius fracture detection. However, despite these advancements, AI-driven fracture detection systems still face several challenges, including the need for extensive annotated datasets, variability in imaging quality across clinical settings, potential biases in model training, and concerns regarding the interpretability and reliability of AI-generated predictions. This review provides a comprehensive analysis of recent advancements and limitations in AI-based fracture detection, offering quantitative insights into model performance. By examining these aspects, the study highlights the importance of integrating AI systems into clinical workflows, while addressing existing barriers to their widespread adoption. This analysis underscores AI’s potential to enhance diagnostic efficiency, reduce human error, and improve patient outcomes.
+ER  - 
+TY  - JOUR
+T1  - Cost-sensitive learning for imbalanced medical data: a review
+A1  - Araf, Imane
+A1  - Idri, Ali
+A1  - Chairi, Ikram
+Y1  - 2024/04//
+KW  - Cost-sensitive learning
+KW  - Data imbalance
+KW  - Machine learning
+KW  - Medical data
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 57
+IS  - 4
+DO  - 10.1007/S10462-023-10652-8
+N2  - Integrating Machine Learning (ML) in medicine has unlocked many opportunities to harness complex medical data, enhancing patient outcomes and advancing the field. However, the inherent imbalanced distribution of medical data poses a significant challenge, resulting in biased ML models that perform poorly on minority classes. Mitigating the impact of class imbalance has prompted researchers to explore various strategies, wherein Cost-Sensitive Learning (CSL) arises as a promising approach to improve the accuracy and reliability of ML models. This paper presents the first review of CSL for imbalanced medical data. A comprehensive exploration of the existing literature encompassed papers published from January 2010 to December 2022 and sourced from five major digital libraries. A total of 173 papers were selected, analysed, and classified based on key criteria, including publication years, channels and sources, research types, empirical types, medical sub-fields, medical tasks, CSL approaches, strengths and weaknesses of CSL, frequently used datasets and data types, evaluation metrics, and development tools. The results indicate a noteworthy publication rise, particularly since 2020, and a strong preference for CSL direct approaches. Data type analysis unveiled diverse modalities, with medical images prevailing. The underutilisation of cost-related metrics and the prevalence of Python as the primary programming tool are highlighted. The strengths and weaknesses analysis covered three aspects: CSL strategy, CSL approaches, and relevant works. This study serves as a valuable resource for researchers seeking to explore the current state of research, identify strengths and gaps in the existing literature and advance CSL’s application for imbalanced medical data.
+ER  - 
+TY  - JOUR
+T1  - Quantum computational infusion in extreme learning machines for early multi-cancer detection
+A1  - Bilal, Anas
+A1  - Shafiq, Muhammad
+A1  - Obidallah, Waeal J.
+A1  - Alduraywish, Yousef A.
+A1  - Long, Haixia
+Y1  - 2025/12//
+KW  - Extreme learning machine (ELM)
+KW  - Feature fusion
+KW  - Grey Wolf Optimization
+KW  - Multi cancer diagnosis
+PB  - Springer Nature
+JF  - Journal of Big Data
+VL  - 12
+IS  - 1
+DO  - 10.1186/S40537-024-01050-0
+N2  - A timely and accurate cancer diagnosis is essential for improving treatment outcomes. This study presents a hybrid model integrating Extreme Learning Machine (ELM) with FuNet transfer learning, applied on a multi-cancer dataset and optimized using the Quantum-Genetic Binary Grey Wolf Optimizer (Q-GBGWO). This model leverages a diverse feature fusion strategy, enhancing the extraction of critical imaging features, while Q-GBGWO optimizes ELM parameters to achieve superior classification performance. Results demonstrate that Q-GBGWO-ELM improves diagnostic accuracy by an average of 6.5% compared to traditional methods, with notable accuracy rates across various cancers: 98.80% for breast cancer, 92.30% for brain tumors, 97.00% for skin cancer, and 96.98% for lung cancer. The model integrates advanced feature extraction and optimization techniques, indicating significant potential for early cancer detection. The proposed Q-GBGWO-ELM model contributes to a more innovative diagnostic approach in clinical practice by offering enhanced precision, efficiency, and adaptability across multiple cancer types. This advancement supports a shift toward more personalized and rapid diagnostic procedures, aiming to improve patient outcomes and reshape current cancer care practices with AI-driven accuracy and efficiency.
+ER  - 
+TY  - JOUR
+T1  - A survey on deep learning fundamentals
+A1  - Tian, Chunwei
+A1  - Cheng, Tongtong
+A1  - Peng, Zhe
+A1  - Zuo, Wangmeng
+A1  - Tian, Yonglin
+A1  - Zhang, Qingfu
+A1  - Wang, Fei Yue
+A1  - Zhang, David
+Y1  - 2025/12//
+KW  - 3D convolutional neural networks
+KW  - Artificial intelligence
+KW  - Deep learning
+KW  - Natural language processing
+KW  - Vision tasks
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 58
+IS  - 12
+DO  - 10.1007/S10462-025-11368-7
+N2  - Deep learning, driven by big data and graphic processing units, has garnered significant attention across various domains. The flexibility of network architectures, combined with their diverse components, has allowed deep learning techniques to be applied across a wide range of domains, expanding from low- and high-level computer vision tasks to encompass video processing, natural language processing (NLP), and 3D data processing. However, there has been relatively little effort to systematically summarise these works from principles to applications in terms of deep learning fundamentals. The present study aims to address this gap in the literature by presenting components of deep networks for image applications, and describing several classical deep networks for image applications. The study then introduces principles, relations, ranges, and applications of deep networks across an expanded scope, covering low-level vision tasks, high-level vision tasks, video processing, NLP, and 3D data processing. The study then compares the performance of different networks across these diverse tasks. Finally, it summarises potential focuses and challenges of deep learning research for these applications with concluding remarks.
+ER  - 
+TY  - JOUR
+T1  - Current and future roles of artificial intelligence in retinopathy of prematurity
+A1  - Jafarizadeh, Ali
+A1  - Maleki, Shadi Farabi
+A1  - Pouya, Parnia
+A1  - Sobhi, Navid
+A1  - Abdollahi, Mirsaeed
+A1  - Pedrammehr, Siamak
+A1  - Lim, Chee Peng
+A1  - Asadi, Houshyar
+A1  - Alizadehsani, Roohallah
+A1  - Tan, Ru San
+A1  - Islam, Sheikh Mohammed Shariful
+A1  - Acharya, U. Rajendra
+Y1  - 2025/06//
+KW  - Artificial intelligence
+KW  - Convolutional neural networks
+KW  - Deep learning
+KW  - Machine learning
+KW  - ROPtool
+KW  - Retinopathy of prematurity
+PB  - Springer Nature
+JF  - Artificial Intelligence Review
+VL  - 58
+IS  - 6
+DO  - 10.1007/S10462-025-11153-6
+N2  - Retinopathy of prematurity (ROP) is a severe condition affecting premature infants, leading to abnormal retinal blood vessel growth, retinal detachment, and potential blindness. While semi-automated systems have been used in the past to diagnose ROP-related plus disease by quantifying retinal vessel features, traditional machine learning (ML) models face challenges like accuracy and overfitting. Recent advancements in deep learning (DL), especially convolutional neural networks (CNNs), have significantly improved ROP detection and classification. The i-ROP deep learning (i-ROP-DL) system also shows promise in detecting plus disease, offering reliable ROP diagnosis potential. This research comprehensively examines the contemporary progress and challenges associated with using retinal imaging and artificial intelligence (AI) to detect ROP, offering valuable insights that can guide further investigation in this domain. Based on 84 original studies in this field (out of 2025 studies that were comprehensively reviewed), we concluded that traditional methods for ROP diagnosis suffer from subjectivity and manual analysis, leading to inconsistent clinical decisions. AI holds great promise for improving ROP management. This review explores AI’s potential in ROP detection, classification, diagnosis, and prognosis.
+ER  - 

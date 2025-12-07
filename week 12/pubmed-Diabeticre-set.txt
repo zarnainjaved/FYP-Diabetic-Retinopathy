@@ -1,0 +1,607 @@
+PMID- 37255780
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20240415
+IS  - 2251-6581 (Print)
+IS  - 2251-6581 (Electronic)
+IS  - 2251-6581 (Linking)
+VI  - 22
+IP  - 1
+DP  - 2023 Jun
+TI  - Hybrid adaptive deep learning classifier for early detection of diabetic 
+      retinopathy using optimal feature extraction and classification.
+PG  - 881-895
+LID - 10.1007/s40200-023-01220-6 [doi]
+AB  - OBJECTIVES: Diabetic retinopathy (DR) is one of the leading causes of blindness. 
+      It is important to use a comprehensive learning method to identify the DR. 
+      However, comprehensive learning methods often rely heavily on encrypted data, 
+      which can be costly and time consuming. Also, the DR function is not displayed 
+      and is scattered in the high-definition image below. METHODS: Therefore, learning 
+      how to distribute such DR functions is a big challenge. In this work, we proposed 
+      a hybrid adaptive deep learning classifier for early detection of diabetic 
+      retinopathy (HADL-DR). First, we provide an improved multichannel-based 
+      generative adversarial network (MGAN) with semi-maintenance to detect blood 
+      vessels segmentation. RESULTS: By reducing the reliance on the encoded data, the 
+      following high-resolution images can be used to detect the indivisible features 
+      of some semi-observed MGAN references. Scale invariant feature transform (SIFT) 
+      function is then extracted and the best function is selected using the improved 
+      sequential approximation optimization (SAO) algorithm. After that, a hybrid 
+      recurrent neural network with long short-term memory (RNN-LSTM) is utilized for 
+      DR classification. The proposed RNN-LSTM classifier evaluated through standard 
+      benchmark Kaggle and Messidor datasets. CONCLUSION: Finally, the simulation 
+      results are compared with the existing state-of-art classifiers in terms of 
+      accuracy, precision, recall, f-measure and area under cover (AUC), it is seen 
+      that more successful results are obtained.
+CI  - © The Author(s), under exclusive licence to Tehran University of Medical Sciences 
+      2023. Springer Nature or its licensor (e.g. a society or other partner) holds 
+      exclusive rights to this article under a publishing agreement with the author(s) 
+      or other rightsholder(s); author self-archiving of the accepted manuscript 
+      version of this article is solely governed by the terms of such publishing 
+      agreement and applicable law.
+FAU - Hemanth, S V
+AU  - Hemanth SV
+AD  - Department of Computer Science and Engineering, Kalasalingam Academy of Research 
+      and Education (Deemed to Be University), Krishnankoil, TamilNadu India. GRID: 
+      grid.444541.4. ISNI: 0000 0004 1764 948X
+FAU - Alagarsamy, Saravanan
+AU  - Alagarsamy S
+AD  - Department of Computer Science and Engineering, Kalasalingam Academy of Research 
+      and Education (Deemed to Be University), Krishnankoil, TamilNadu India. GRID: 
+      grid.444541.4. ISNI: 0000 0004 1764 948X
+LA  - eng
+PT  - Journal Article
+DEP - 20230414
+PL  - Switzerland
+TA  - J Diabetes Metab Disord
+JT  - Journal of diabetes and metabolic disorders
+JID - 101590741
+PMC - PMC10225400
+OTO - NOTNLM
+OT  - Classification
+OT  - Diabetic retinopathy
+OT  - Feature extraction
+OT  - Feature selection
+OT  - Preprocessing
+OT  - Segmentation
+COIS- Conflict of interestThe authors declare that they have no conflict of interest.
+EDAT- 2023/05/31 13:12
+MHDA- 2023/05/31 13:13
+PMCR- 2024/04/14
+CRDT- 2023/05/31 10:29
+PHST- 2022/10/06 00:00 [received]
+PHST- 2023/03/29 00:00 [accepted]
+PHST- 2023/05/31 13:13 [medline]
+PHST- 2023/05/31 13:12 [pubmed]
+PHST- 2023/05/31 10:29 [entrez]
+PHST- 2024/04/14 00:00 [pmc-release]
+AID - 1220 [pii]
+AID - 10.1007/s40200-023-01220-6 [doi]
+PST - epublish
+SO  - J Diabetes Metab Disord. 2023 Apr 14;22(1):881-895. doi: 
+      10.1007/s40200-023-01220-6. eCollection 2023 Jun.
+
+PMID- 35885512
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20220731
+IS  - 2075-4418 (Print)
+IS  - 2075-4418 (Electronic)
+IS  - 2075-4418 (Linking)
+VI  - 12
+IP  - 7
+DP  - 2022 Jul 1
+TI  - Diabetic Retinopathy Detection from Fundus Images of the Eye Using Hybrid Deep 
+      Learning Features.
+LID - 10.3390/diagnostics12071607 [doi]
+LID - 1607
+AB  - Diabetic Retinopathy (DR) is a medical condition present in patients suffering 
+      from long-term diabetes. If a diagnosis is not carried out at an early stage, it 
+      can lead to vision impairment. High blood sugar in diabetic patients is the main 
+      source of DR. This affects the blood vessels within the retina. Manual detection 
+      of DR is a difficult task since it can affect the retina, causing structural 
+      changes such as Microaneurysms (MAs), Exudates (EXs), Hemorrhages (HMs), and 
+      extra blood vessel growth. In this work, a hybrid technique for the detection and 
+      classification of Diabetic Retinopathy in fundus images of the eye is proposed. 
+      Transfer learning (TL) is used on pre-trained Convolutional Neural Network (CNN) 
+      models to extract features that are combined to generate a hybrid feature vector. 
+      This feature vector is passed on to various classifiers for binary and multiclass 
+      classification of fundus images. System performance is measured using various 
+      metrics and results are compared with recent approaches for DR detection. The 
+      proposed method provides significant performance improvement in DR detection for 
+      fundus images. For binary classification, the proposed modified method achieved 
+      the highest accuracy of 97.8% and 89.29% for multiclass classification.
+FAU - Butt, Muhammad Mohsin
+AU  - Butt MM
+AUID- ORCID: 0000-0002-5992-2638
+AD  - Faculty of Computer Science and Information Technology, University of Malaysia, 
+      Kuala Lumpur 50603, Sarawak, Malaysia.
+FAU - Iskandar, D N F Awang
+AU  - Iskandar DNFA
+AUID- ORCID: 0000-0002-0909-5670
+AD  - Faculty of Computer Science and Information Technology, University of Malaysia, 
+      Kuala Lumpur 50603, Sarawak, Malaysia.
+FAU - Abdelhamid, Sherif E
+AU  - Abdelhamid SE
+AUID- ORCID: 0000-0002-6574-0187
+AD  - Department of Computer and Information Sciences, Virginia Military Institute, 
+      Lexington, VA 24450, USA.
+FAU - Latif, Ghazanfar
+AU  - Latif G
+AD  - Computer Science Department, Prince Mohammad Bin Fahd University, Khobar 34754, 
+      Saudi Arabia.
+AD  - Department of Computer Sciences and Mathematics, Université du Québec à 
+      Chicoutimi, 555 Boulevard de l'Université, Chicoutimi, QC G7H 2B1, Canada.
+FAU - Alghazo, Runna
+AU  - Alghazo R
+AD  - College of Sciences and Human Studies, Prince Mohammad Bin Fahd University, 
+      Khobar 34754, Saudi Arabia.
+LA  - eng
+GR  - CCI_2021/Commonwealth Cyber Initiative, an investment in the advancement of cyber 
+      R&amp;D, innovation, and workforce development/
+PT  - Journal Article
+DEP - 20220701
+PL  - Switzerland
+TA  - Diagnostics (Basel)
+JT  - Diagnostics (Basel, Switzerland)
+JID - 101658402
+PMC - PMC9324358
+OTO - NOTNLM
+OT  - convolutional neural network features
+OT  - diabetic retinopathy
+OT  - fundus images
+OT  - hybrid deep learning features
+COIS- The authors declare no conflict of interest.
+EDAT- 2022/07/28 06:00
+MHDA- 2022/07/28 06:01
+PMCR- 2022/07/01
+CRDT- 2022/07/27 01:15
+PHST- 2022/06/11 00:00 [received]
+PHST- 2022/06/25 00:00 [revised]
+PHST- 2022/06/28 00:00 [accepted]
+PHST- 2022/07/27 01:15 [entrez]
+PHST- 2022/07/28 06:00 [pubmed]
+PHST- 2022/07/28 06:01 [medline]
+PHST- 2022/07/01 00:00 [pmc-release]
+AID - diagnostics12071607 [pii]
+AID - diagnostics-12-01607 [pii]
+AID - 10.3390/diagnostics12071607 [doi]
+PST - epublish
+SO  - Diagnostics (Basel). 2022 Jul 1;12(7):1607. doi: 10.3390/diagnostics12071607.
+
+PMID- 40154203
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20250420
+LR  - 20250421
+IS  - 1879-0534 (Electronic)
+IS  - 0010-4825 (Linking)
+VI  - 190
+DP  - 2025 May
+TI  - Hybrid deep learning framework for diabetic retinopathy classification with 
+      optimized attention AlexNet.
+PG  - 110054
+LID - S0010-4825(25)00405-6 [pii]
+LID - 10.1016/j.compbiomed.2025.110054 [doi]
+AB  - Diabetic retinopathy (DR) is a chronic condition associated with diabetes that 
+      can lead to vision impairment and, if not addressed, may progress to irreversible 
+      blindness. Consequently, it is essential to detect pathological changes in the 
+      retina to assess DR severity accurately. Manual examination of retinal disorders 
+      is often complex, time consuming, and susceptible to errors due to fine retinal 
+      disorder. In recent years, Deep Learning (DL) based optimizations have shown 
+      significant promises in improving DR recognition and classification. At last, the 
+      advanced classification method using metaheuristic optimization for grading 
+      severity in fundus images. This work presents an automated DR classification 
+      using metaheuristic optimization based advanced DL model. There are four stages 
+      are involved in the suggested DR classification. At first, the pre-processing 
+      stage is performed green channel conversion, CLAHE and Gaussian filtering (GF). 
+      Then, the fundus lesions are segmented by the Fuzzy Possibilistic C Ordered Means 
+      (FPCOM). Finally, the lesions are classified by Attention AlexNet based Improved 
+      Nutcracker Optimizer (At-AlexNet-ImNO). The ImNO optimizes the At-AlexNet's 
+      weights and hyperparameters and boosts the classification performance. The 
+      experimentation is performed on two benchmark datasets like APTOS-2019 
+      Blindness-Detection and EyePacs. Accuracy, precision and recall values achieved 
+      are 99.23 %, 98 % and 98.2 % on APTOS-2019 and accuracy, precision and recall 
+      values achieved are 99.43 %, 98.2 % and 98.65 % on EyePacs respectively.
+CI  - Copyright © 2025 Elsevier Ltd. All rights reserved.
+FAU - D S, Renu
+AU  - D S R
+AD  - Department of Computer Science and Engineering, Mar Ephraem College of 
+      Engineering and Technology, Elavuvilai, Tamilnadu, India. Electronic address: 
+      dsrenu@outlook.com.
+FAU - Saji, K S
+AU  - Saji KS
+AD  - Department of Electrical and Electronics Engineering, Meenakshi Sundararajan 
+      Engineering College, Kodambakkam, Chennai, Tamilnadu, India. Electronic address: 
+      saajiks@gmail.com.
+LA  - eng
+PT  - Journal Article
+DEP - 20250327
+PL  - United States
+TA  - Comput Biol Med
+JT  - Computers in biology and medicine
+JID - 1250250
+SB  - IM
+MH  - *Diabetic Retinopathy/diagnostic imaging/classification
+MH  - Humans
+MH  - *Deep Learning
+MH  - *Image Interpretation, Computer-Assisted/methods
+MH  - Fundus Oculi
+MH  - Convolutional Neural Networks
+OTO - NOTNLM
+OT  - Attention AlexNet
+OT  - Deep learning
+OT  - Diabetic retinopathy
+OT  - Fundus lesions
+OT  - Improved nutcracker optimizer
+COIS- Declaration of competing interest The authors declare that they have no known 
+      competing financial interests or personal relationships that could have appeared 
+      to influence the work reported in this paper.
+EDAT- 2025/03/29 16:14
+MHDA- 2025/04/21 00:25
+CRDT- 2025/03/28 19:10
+PHST- 2024/12/30 00:00 [received]
+PHST- 2025/02/24 00:00 [revised]
+PHST- 2025/03/18 00:00 [accepted]
+PHST- 2025/04/21 00:25 [medline]
+PHST- 2025/03/29 16:14 [pubmed]
+PHST- 2025/03/28 19:10 [entrez]
+AID - S0010-4825(25)00405-6 [pii]
+AID - 10.1016/j.compbiomed.2025.110054 [doi]
+PST - ppublish
+SO  - Comput Biol Med. 2025 May;190:110054. doi: 10.1016/j.compbiomed.2025.110054. Epub 
+      2025 Mar 27.
+
+PMID- 40307328
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20250501
+LR  - 20250503
+IS  - 2045-2322 (Electronic)
+IS  - 2045-2322 (Linking)
+VI  - 15
+IP  - 1
+DP  - 2025 Apr 30
+TI  - A hybrid deep learning framework for early detection of diabetic retinopathy 
+      using retinal fundus images.
+PG  - 15166
+LID - 10.1038/s41598-025-99309-w [doi]
+LID - 15166
+AB  - Recent advancements in deep learning have significantly impacted medical image 
+      processing domain, enabling sophisticated and accurate diagnostic tools. This 
+      paper presents a novel hybrid deep learning framework that combines convolutional 
+      neural networks (CNNs) and recurrent neural networks (RNNs) for diabetic 
+      retinopathy (DR) early detection and progression monitoring using retinal fundus 
+      images. Utilizing the sequential nature of disease progression, the proposed 
+      method integrates temporal information across multiple retinal scans to enhance 
+      detection accuracy. The proposed model utilizes publicly available DRIVE and 
+      Kaggle diabetic retinopathy datasets to evaluate the performance. The benchmark 
+      datasets provide a diverse set of annotated retinal images and the proposed 
+      hybrid model employs a CNN to extract spatial features from retinal images. The 
+      spatial feature extraction is enhanced by multi-scale feature extraction to 
+      capture fine details and broader patterns. These enriched spatial features are 
+      then fed into an RNN with attention mechanism to capture temporal dependencies so 
+      that most relevant data aspects can be considered for analysis. This combined 
+      approach enables the model to consider both current and previous states of the 
+      retina, improving its ability to detect subtle changes indicative of early-stage 
+      DR. Proposed model experimental evaluation demonstrate the superior performance 
+      over traditional deep learning models like CNN, RNN, InceptionV3, VGG19 and LSTM 
+      in terms of both sensitivity and specificity, achieving 97.5% accuracy on the 
+      DRIVE dataset, 94.04% on the Kaggle dataset, 96.9% on the Eyepacs Dataset. This 
+      research work not only advances the field of automated DR detection but also 
+      provides a framework for utilizing temporal information in medical image 
+      analysis.
+CI  - © 2025. The Author(s).
+FAU - Sushith, Mishmala
+AU  - Sushith M
+AD  - Department of Information Technology, Adithya Institute of Technology, 
+      Kurumbapalayam, Coimbatore, 641 107, India. mishmalasushith1926@gmail.com.
+FAU - Sathiya, A
+AU  - Sathiya A
+AD  - M.Kumarasamy College of Engineering (Autonomous), Thalavapalayam, Karur, 639113, 
+      India.
+FAU - Kalaipoonguzhali, V
+AU  - Kalaipoonguzhali V
+AD  - Department of EEE, Kathir College of Engineering, Neelambur, Coimbatore, 641062, 
+      India.
+FAU - Sathya, V
+AU  - Sathya V
+AD  - Department of Computer Science and Engineering, Vel Tech Rangarajan Dr. 
+      Sagunthala R&D Institute of Science and Technology, Chennai, Tamil Nadu, India.
+LA  - eng
+PT  - Journal Article
+DEP - 20250430
+PL  - England
+TA  - Sci Rep
+JT  - Scientific reports
+JID - 101563288
+SB  - IM
+MH  - *Diabetic Retinopathy/diagnosis/diagnostic imaging
+MH  - Humans
+MH  - *Deep Learning
+MH  - *Fundus Oculi
+MH  - *Retina/diagnostic imaging/pathology
+MH  - Neural Networks, Computer
+MH  - Early Diagnosis
+MH  - *Image Processing, Computer-Assisted/methods
+PMC - PMC12043946
+OTO - NOTNLM
+OT  - Convolutional neural network
+OT  - Deep learning
+OT  - Diabetic retinopathy
+OT  - Recurrent neural network
+OT  - Retinal fundus images
+OT  - Temporal analysis
+COIS- Competing interests: The authors declare no competing interests.
+EDAT- 2025/05/01 00:27
+MHDA- 2025/05/01 12:29
+PMCR- 2025/04/30
+CRDT- 2025/04/30 23:19
+PHST- 2024/08/14 00:00 [received]
+PHST- 2025/04/18 00:00 [accepted]
+PHST- 2025/05/01 12:29 [medline]
+PHST- 2025/05/01 00:27 [pubmed]
+PHST- 2025/04/30 23:19 [entrez]
+PHST- 2025/04/30 00:00 [pmc-release]
+AID - 10.1038/s41598-025-99309-w [pii]
+AID - 99309 [pii]
+AID - 10.1038/s41598-025-99309-w [doi]
+PST - epublish
+SO  - Sci Rep. 2025 Apr 30;15(1):15166. doi: 10.1038/s41598-025-99309-w.
+
+PMID- 35545738
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20220627
+LR  - 20220716
+IS  - 1741-0444 (Electronic)
+IS  - 0140-0118 (Print)
+IS  - 0140-0118 (Linking)
+VI  - 60
+IP  - 7
+DP  - 2022 Jul
+TI  - A computer-aided diagnosis system for detecting various diabetic retinopathy 
+      grades based on a hybrid deep learning technique.
+PG  - 2015-2038
+LID - 10.1007/s11517-022-02564-6 [doi]
+AB  - Diabetic retinopathy (DR) is a serious disease that may cause vision loss 
+      unawares without any alarm. Therefore, it is essential to scan and audit the DR 
+      progress continuously. In this respect, deep learning techniques achieved great 
+      success in medical image analysis. Deep convolution neural network (CNN) 
+      architectures are widely used in multi-label (ML) classification. It helps in 
+      diagnosing normal and various DR grades: mild, moderate, and severe 
+      non-proliferative DR (NPDR) and proliferative DR (PDR). DR grades are formulated 
+      by appearing multiple DR lesions simultaneously on the color retinal fundus 
+      images. Many lesion types have various features that are difficult to segment and 
+      distinguished by utilizing conventional and hand-crafted methods. Therefore, the 
+      practical solution is to utilize an effective CNN model. In this paper, we 
+      present a novel hybrid, deep learning technique, which is called E-DenseNet. We 
+      integrated EyeNet and DenseNet models based on transfer learning. We customized 
+      the traditional EyeNet by inserting the dense blocks and optimized the resulting 
+      hybrid E-DensNet model's hyperparameters. The proposed system based on the 
+      E-DenseNet model can accurately diagnose healthy and different DR grades from 
+      various small and large ML color fundus images. We trained and tested our model 
+      on four different datasets that were published from 2006 to 2019. The proposed 
+      system achieved an average accuracy (ACC), sensitivity (SEN), specificity (SPE), 
+      Dice similarity coefficient (DSC), the quadratic Kappa score (QKS), and the 
+      calculation time (T) in minutes (m) equal [Formula: see text], [Formula: see 
+      text], [Formula: see text], [Formula: see text], 0.883, and 3.5m respectively. 
+      The experiments show promising results as compared with other systems.
+CI  - © 2022. The Author(s).
+FAU - AbdelMaksoud, Eman
+AU  - AbdelMaksoud E
+AD  - Faculty of Computers and Information, Mansoura University, Mansoura, P.O. 35516, 
+      Egypt.
+FAU - Barakat, Sherif
+AU  - Barakat S
+AD  - Faculty of Computers and Information, Mansoura University, Mansoura, P.O. 35516, 
+      Egypt.
+FAU - Elmogy, Mohammed
+AU  - Elmogy M
+AUID- ORCID: 0000-0002-2504-6051
+AD  - Faculty of Computers and Information, Mansoura University, Mansoura, P.O. 35516, 
+      Egypt. melmogy@mans.edu.eg.
+LA  - eng
+PT  - Journal Article
+DEP - 20220511
+PL  - United States
+TA  - Med Biol Eng Comput
+JT  - Medical & biological engineering & computing
+JID - 7704869
+SB  - IM
+MH  - Computers
+MH  - *Deep Learning
+MH  - *Diabetes Mellitus
+MH  - *Diabetic Retinopathy/diagnostic imaging
+MH  - Diagnosis, Computer-Assisted/methods
+MH  - Fundus Oculi
+MH  - Humans
+PMC - PMC9225981
+OTO - NOTNLM
+OT  - Convolution neural network (CNN)
+OT  - DenseNet
+OT  - Diabetic retinopathy (DR)
+OT  - E-DenseNet
+OT  - EyeNet
+OT  - Transfer learning
+COIS- the authors declare no competing interests.
+EDAT- 2022/05/12 06:00
+MHDA- 2022/06/28 06:00
+PMCR- 2022/05/11
+CRDT- 2022/05/11 23:20
+PHST- 2021/05/28 00:00 [received]
+PHST- 2022/03/25 00:00 [accepted]
+PHST- 2022/05/12 06:00 [pubmed]
+PHST- 2022/06/28 06:00 [medline]
+PHST- 2022/05/11 23:20 [entrez]
+PHST- 2022/05/11 00:00 [pmc-release]
+AID - 10.1007/s11517-022-02564-6 [pii]
+AID - 2564 [pii]
+AID - 10.1007/s11517-022-02564-6 [doi]
+PST - ppublish
+SO  - Med Biol Eng Comput. 2022 Jul;60(7):2015-2038. doi: 10.1007/s11517-022-02564-6. 
+      Epub 2022 May 11.
+
+PMID- 40156773
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20250509
+LR  - 20250509
+IS  - 1745-2422 (Electronic)
+IS  - 1743-4440 (Linking)
+VI  - 22
+IP  - 5
+DP  - 2025 May
+TI  - VisionGuard: enhancing diabetic retinopathy detection with hybrid deep learning.
+PG  - 497-509
+LID - 10.1080/17434440.2025.2486476 [doi]
+AB  - OBJECTIVES: Early detection of diabetic retinopathy (DR) and timely intervention 
+      are critical for preventing vision loss. Recently, deep learning techniques have 
+      shown promising results in streamlining this process. The objective of this study 
+      was to develop a novel method, termed MobileFusionNet, which integrates the 
+      strengths of MobileNet and GoogleNet architectures to automate the detection of 
+      DR better using mobile devices. METHODS: The model is implemented in Python and 
+      trained on large-scale datasets of retinal images annotated with DR severity 
+      levels. The initial step involves pre-processing the images. Further, an advanced 
+      feature extraction technique named Histogram of Oriented Gradients (HOG) is 
+      utilized, which helps capture the shape/texture information. Finally, the 
+      methodology incorporates Linear Discriminant Analysis (LDA), a technique aimed at 
+      reducing the dimensionality of the extracted features. RESULTS: The proposed 
+      model displays low inference time and is highly energy efficient. The model 
+      exhibits high sensitivity and specificity in detecting DR, with an impressive 
+      accuracy of 98.19%. CONCLUSIONS: The model with its modular architecture allows 
+      easy integration and holds great potential for revolutionizing DR detection by 
+      democratizing access to accurate and timely screening, particularly in 
+      resource-limited settings.
+FAU - Rao, Sudesh
+AU  - Rao S
+AD  - Institute of Engineering and Technology, Srinivas University, Mangalore, India.
+FAU - Rao, Sudesh
+AU  - Rao S
+AD  - Department of Artificial Intelligence & Machine Learning, Nitte (Deemed to be 
+      University), NMAM Institute of Technology (NMAMIT), Nitte, India.
+FAU - Kulkarni, Sanjeev D
+AU  - Kulkarni SD
+AD  - Institute of Engineering and Technology, Srinivas University, Mangalore, India.
+FAU - Marakini, Vikas
+AU  - Marakini V
+AD  - Department of Mechanical Engineering, Nitte (Deemed to be University), NMAM 
+      Institute of Technology (NMAMIT), Nitte, India.
+LA  - eng
+PT  - Journal Article
+DEP - 20250330
+PL  - England
+TA  - Expert Rev Med Devices
+JT  - Expert review of medical devices
+JID - 101230445
+SB  - IM
+MH  - *Diabetic Retinopathy/diagnosis/diagnostic imaging
+MH  - *Deep Learning
+MH  - Humans
+MH  - Image Processing, Computer-Assisted
+OTO - NOTNLM
+OT  - GoogleNet
+OT  - HOG
+OT  - LDA
+OT  - MobileFusionNet
+OT  - MobileNet
+OT  - dimensionality reduction
+OT  - feature extraction
+EDAT- 2025/03/30 23:01
+MHDA- 2025/05/09 12:36
+CRDT- 2025/03/29 12:22
+PHST- 2025/05/09 12:36 [medline]
+PHST- 2025/03/30 23:01 [pubmed]
+PHST- 2025/03/29 12:22 [entrez]
+AID - 10.1080/17434440.2025.2486476 [doi]
+PST - ppublish
+SO  - Expert Rev Med Devices. 2025 May;22(5):497-509. doi: 
+      10.1080/17434440.2025.2486476. Epub 2025 Mar 30.
+
+PMID- 38393285
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20240226
+LR  - 20250829
+IS  - 2379-139X (Electronic)
+IS  - 2379-1381 (Print)
+IS  - 2379-1381 (Linking)
+VI  - 10
+IP  - 2
+DP  - 2024 Feb 5
+TI  - Identifying Diabetic Retinopathy in the Human Eye: A Hybrid Approach Based on a 
+      Computer-Aided Diagnosis System Combined with Deep Learning.
+PG  - 215-230
+LID - 10.3390/tomography10020017 [doi]
+AB  - Diagnosing and screening for diabetic retinopathy is a well-known issue in the 
+      biomedical field. A component of computer-aided diagnosis that has advanced 
+      significantly over the past few years as a result of the development and 
+      effectiveness of deep learning is the use of medical imagery from a patient's eye 
+      to identify the damage caused to blood vessels. Issues with unbalanced datasets, 
+      incorrect annotations, a lack of sample images, and improper performance 
+      evaluation measures have negatively impacted the performance of deep learning 
+      models. Using three benchmark datasets of diabetic retinopathy, we conducted a 
+      detailed comparison study comparing various state-of-the-art approaches to 
+      address the effect caused by class imbalance, with precision scores of 93%, 89%, 
+      81%, 76%, and 96%, respectively, for normal, mild, moderate, severe, and DR 
+      phases. The analyses of the hybrid modeling, including CNN analysis and SHAP 
+      model derivation results, are compared at the end of the paper, and ideal hybrid 
+      modeling strategies for deep learning classification models for automated DR 
+      detection are identified.
+FAU - Atcı, Şükran Yaman
+AU  - Atcı ŞY
+AUID- ORCID: 0000-0002-6600-4157
+AD  - Department of Computer Engineering, İstanbul Aydın University, Istanbul 34295, 
+      Turkey.
+FAU - Güneş, Ali
+AU  - Güneş A
+AUID- ORCID: 0000-0001-6177-3136
+AD  - Department of Computer Engineering, İstanbul Aydın University, Istanbul 34295, 
+      Turkey.
+FAU - Zontul, Metin
+AU  - Zontul M
+AUID- ORCID: 0000-0002-7557-2981
+AD  - Department of Computer Engineering, Sivas University of Science and Technology, 
+      Sivas 58140, Turkey.
+FAU - Arslan, Zafer
+AU  - Arslan Z
+AD  - Department of Computer Engineering, İstanbul Aydın University, Istanbul 34295, 
+      Turkey.
+LA  - eng
+PT  - Journal Article
+DEP - 20240205
+PL  - Switzerland
+TA  - Tomography
+JT  - Tomography (Ann Arbor, Mich.)
+JID - 101671170
+SB  - IM
+MH  - Humans
+MH  - *Diabetic Retinopathy/diagnostic imaging
+MH  - *Deep Learning
+MH  - Diagnosis, Computer-Assisted/methods
+MH  - Benchmarking
+MH  - Computers
+MH  - *Diabetes Mellitus
+PMC - PMC10892594
+OTO - NOTNLM
+OT  - computer-aided diagnosis
+OT  - convolutional neural network (CNN)
+OT  - diabetic retinopathy
+OT  - image classification
+OT  - object detection
+COIS- The authors declare no conflicts of interest.
+EDAT- 2024/02/23 12:44
+MHDA- 2024/02/26 06:44
+PMCR- 2024/02/05
+CRDT- 2024/02/23 10:34
+PHST- 2023/12/15 00:00 [received]
+PHST- 2024/01/16 00:00 [revised]
+PHST- 2024/02/01 00:00 [accepted]
+PHST- 2024/02/26 06:44 [medline]
+PHST- 2024/02/23 12:44 [pubmed]
+PHST- 2024/02/23 10:34 [entrez]
+PHST- 2024/02/05 00:00 [pmc-release]
+AID - tomography10020017 [pii]
+AID - tomography-10-00017 [pii]
+AID - 10.3390/tomography10020017 [doi]
+PST - epublish
+SO  - Tomography. 2024 Feb 5;10(2):215-230. doi: 10.3390/tomography10020017.

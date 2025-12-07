@@ -1,0 +1,626 @@
+TY  - JOUR
+TI  - Diabetic Retinopathy Detection and Grading: A Transfer Learning Approach Using Simultaneous Parameter Optimization and Feature-Weighted ECOC Ensemble
+T2  - IEEE Access
+SP  - 83004
+EP  - 83016
+AU  - W. K. Wong
+AU  - F. H. Juwono
+AU  - C. Apriono
+PY  - 2023
+KW  - Feature extraction
+KW  - Deep learning
+KW  - Retina
+KW  - Transfer learning
+KW  - Diabetic retinopathy
+KW  - Convolutional neural networks
+KW  - Stochastic processes
+KW  - Optimization
+KW  - Blindness
+KW  - Medical treatment
+KW  - Transfer learning
+KW  - Diabetic retinopathy
+KW  - stochastic optimization
+KW  - differential evolution
+KW  - ECOC optimization
+DO  - 10.1109/ACCESS.2023.3301618
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 11
+VL  - 11
+JA  - IEEE Access
+Y1  - 2023
+AB  - Early detection of Diabetic Retinopathy (DR) is crucial as it may cause blindness. Manual diagnosis of DR severity by ophthalmologists is challenging and time consuming. Therefore, there has been a significant focus on developing an automated system for identifying DR using retinal fundus images. Recent research has revealed that utilizing pre-trained deep learning networks for diverse image classification tasks provides notable benefits in this context. In this paper, a Transfer Learning (TL) approach with optimized feature weights and parameters is proposed for DR detection and grading tasks. To obtain better generalization during training and to optimize classification, features are extracted from the average pooling layers and fed to an Error Correction Output Code (ECOC) ensemble configuration. Two pre-trained networks (ShuffleNet and ResNet-18) are considered as each pre-trained network offers a different “point of view” of the fundus images, thereby providing more opportunities for accurate “grade-wise” discrimination. A simultaneous feature selection and parameter tuning of the ensemble is applied to further enhance the overall DR detection and grading. Adaptive Differential Evolution (ADE) is chosen for this purpose because it automatically configures the parameters, eliminating the need for manual parameter selection. In this paper, we evaluate two public domain datasets: 1) APTOS and 2) combination of EyePac + Messidor-2. Simulation results show that our proposed method performs better that the conventional deep learning models and are on a par with the existing research work. In particular, the optimal configuration for APTOS 5-class DR grading achieves an accuracy rate of 82%, while for APTOS 2-class grading, it achieves a higher accuracy rate of 96%. Finally, the best configuration for EyePac + Messidor-2 3-class grading results in 75% accuracy.
+ER  - 
+
+TY  - JOUR
+TI  - Diabetic Retinopathy Classification With Deep Learning via Fundus Images: A Short Survey
+T2  - IEEE Access
+SP  - 20540
+EP  - 20558
+AU  - S. Zhu
+AU  - C. Xiong
+AU  - Q. Zhong
+AU  - Y. Yao
+PY  - 2024
+KW  - Diabetic retinopathy
+KW  - Retina
+KW  - Lesions
+KW  - Biomedical imaging
+KW  - Deep learning
+KW  - Optical imaging
+KW  - Blood vessels
+KW  - Classification algorithms
+KW  - Classification
+KW  - diabetic retinopathy
+KW  - deep learning
+KW  - fundus images
+DO  - 10.1109/ACCESS.2024.3361944
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 12
+VL  - 12
+JA  - IEEE Access
+Y1  - 2024
+AB  - Diabetic retinopathy (DR) is a microvascular disease that is associated with diabetes mellitus. DR can cause irreversible vision loss and low vision. DR classification, that is, early DR diagnosis and accurate DR grading, is critical for vision protection and immediate treatment. Deep learning-based automated systems led to significant expectations for DR classification based on fundus images with several advantages. In the past several years, many outstanding studies in this area have been conducted and several review articles have been published. However, the new trends and the future directions are need to furtherly analyzed. Thus, we carefully included and read 94 related articles published from 2018 to 2023 through Web of Science, PubMed, Scopus, and IEEE Xplore. From this review, we found that transfer learning has been used as an outstanding strategy for overcoming the issue of the limited data resources to support DR analysis. CNN models of ResNet and VGGNet with layers of tens or even hundreds are the most popular frameworks used for DR classification. The APTOS 2019 and EyePACS are the most widely used datasets for DR classification. In addition, some lightweight DL architectures like SqueezeNet and MobileNet have been proposed for DR classification tasks, especially for limited data resources and computational capabilities. Although deep learning has achieved or surpassed human-level accuracy in DR classification, there is still a long way to go in real clinical workflows. Further improvements in model interpretability, trustworthiness from ophthalmologists, cost-effective and reliable DR screening systems are needed.
+ER  - 
+
+TY  - JOUR
+TI  - A Lesion-Based Diabetic Retinopathy Detection Through Hybrid Deep Learning Model
+T2  - IEEE Access
+SP  - 40019
+EP  - 40036
+AU  - A. Jabbar
+AU  - H. B. Liaqat
+AU  - A. Akram
+AU  - M. U. Sana
+AU  - I. D. Azpíroz
+AU  - I. D. L. T. Diez
+AU  - I. Ashraf
+PY  - 2024
+KW  - Diabetic retinopathy
+KW  - Retina
+KW  - Feature extraction
+KW  - Machine learning
+KW  - Deep learning
+KW  - Training
+KW  - Biomedical imaging
+KW  - Diabetes
+KW  - Biomedical imaging
+KW  - Transfer learning
+KW  - Hybrid learning
+KW  - Lesions
+KW  - Detection algorithms
+KW  - Medical diagnosis
+KW  - Diabetic retinopathy
+KW  - fundus images
+KW  - transfer learning
+KW  - hybrid learning
+KW  - machine learning
+KW  - lesion detection
+DO  - 10.1109/ACCESS.2024.3373467
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 12
+VL  - 12
+JA  - IEEE Access
+Y1  - 2024
+AB  - Diabetic retinopathy (DR) can be defined as visual impairment caused by prolonged diabetes affecting the blood vessels in the retina. Globally, it stands as the primary contributor to blindness, impacting approximately 191 million individuals. While prior research has addressed DR classification using retinal fundus images, existing methods often focus on isolated lesion detection, lacking a comprehensive framework for the simultaneous identification of all lesions. Previous studies concentrated on early-stage features like exudates, aneurysms, hemorrhages, and blood vessels, sidelining severe-stage lesions such as cotton wool spots, venous beading, very severe intraretinal microvascular abnormalities (IRMA), diffuse intraretinal hemorrhages, capillary degeneration, highly activated microglia, and retinal pigment epithelium (RPE) damage. In this study, a deep learning approach is proposed to classify DR fundus images by severity levels, utilizing GoogleNet and ResNet models based on adaptive particle swarm optimizer (APSO), for enhanced feature extraction. The extracted features from the hybrid model are further used with different machine learning models like random forest, support vector machine, decision tree, and linear regression models. Experimental results showcased the proposed hybrid framework outperforming advanced approaches with a remarkable 94% accuracy on the benchmark dataset. This method demonstrates potential enhancements in precision, recall, accuracy, and F1 score for different DR severity levels.
+ER  - 
+
+TY  - JOUR
+TI  - Application of Artificial Intelligence for Classification, Segmentation, Early Detection, Early Diagnosis, and Grading of Diabetic Retinopathy From Fundus Retinal Images: A Comprehensive Review
+T2  - IEEE Access
+SP  - 172499
+EP  - 172536
+AU  - G. Rajarajeshwari
+AU  - G. C. Selvi
+PY  - 2024
+KW  - Retina
+KW  - Artificial intelligence
+KW  - Reviews
+KW  - Optimization
+KW  - Optical coherence tomography
+KW  - Blood
+KW  - Principal component analysis
+KW  - Histograms
+KW  - Diabetic retinopathy
+KW  - Convolutional neural networks
+KW  - Deep learning
+KW  - machine learning
+KW  - explainable AI
+KW  - image preprocessing
+KW  - diabetic retinopathy
+KW  - fundus imaging
+KW  - optical coherence tomography
+KW  - optical coherence tomography angiography
+KW  - transfer learning
+DO  - 10.1109/ACCESS.2024.3494840
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 12
+VL  - 12
+JA  - IEEE Access
+Y1  - 2024
+AB  - Diabetic Retinopathy (DR) remains a major factor contributing to vision loss worldwide, particularly among individuals with diabetes. Timely and accurate diagnosis of DR is essential to prevent vision loss and guide clinical intervention. In recent decades, Artificial Intelligence (AI) has demonstrated remarkable potential in revolutionizing DR disease identification and risk assessment. This review paper aims to perform the comprehensive analysis regarding the present status of research and developments in the field of DR using AI technologies. This comprehensive review emphasize the five categories of DR applications such as classification, detection, early diagnosis, segmentation and grading the severity of DR’s. This review article presents how AI technologies are leveraged in the current research works considering all these five DR applications. This is illustrated by using the AI-based DR workflow. It highlights the few significant case studies utilizing the AI technologies in real life problem-solving. Further, the adoption of Explainable Artificial Intelligence (XAI) techniques in the field of DR applications are discussed for model generalization and clinical validation. Finally, it presents the available benchmarking datasets, performance metrics, key challenges and future scope for DR research utilizing the AI technologies. This review work unveils several challenges and limitations with respect to input data modality, data preprocessing and data-fusion drawing the scope for further enhancements that can be made for a better DR prediction and detection.
+ER  - 
+
+TY  - JOUR
+TI  - Enhancing Early Detection of Diabetic Retinopathy Through the Integration of Deep Learning Models and Explainable Artificial Intelligence
+T2  - IEEE Access
+SP  - 73950
+EP  - 73969
+AU  - K. Ahnaf Alavee
+AU  - M. Hasan
+AU  - A. Hasnayen Zillanee
+AU  - M. Mostakim
+AU  - J. Uddin
+AU  - E. Silva Alvarado
+AU  - I. de la Torre Diez
+AU  - I. Ashraf
+AU  - M. Abdus Samad
+PY  - 2024
+KW  - Retina
+KW  - Support vector machines
+KW  - Diabetic retinopathy
+KW  - Biological system modeling
+KW  - Diseases
+KW  - Deep learning
+KW  - Computational modeling
+KW  - Diabetic retinopathy
+KW  - transfer learning
+KW  - CNN
+KW  - Xception
+KW  - inception
+KW  - Grad-CAM
+DO  - 10.1109/ACCESS.2024.3405570
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 12
+VL  - 12
+JA  - IEEE Access
+Y1  - 2024
+AB  - Humans can carry various diseases, some of which are poorly understood and lack comprehensive solutions. Such a disease can exists in human eye that can affect one or both eyes is diabetic retinopathy (DR) which can impair function, vision, and eventually result in permanent blindness. It is one of those complex complexities. Therefore, early detection of DR can significantly reduce the risk of vision impairment by appropriate treatment and necessary precautions. The primary aim of this study is to leverage cutting-edge models trained on diverse image datasets and propose a CNN model that demonstrates comparable performance. Specifically, we employ transfer learning models such as DenseNet121, Xception, Resnet50, VGG16, VGG19, and InceptionV3, and machine learning models such as SVM, and neural network models like (RNN) for binary and multi-class classification. It has been shown that the proposed approach of multi-label classification with softmax functions and categorical cross-entropy works more effectively, yielding perfect accuracy, precision, and recall values. In particular, Xception achieved an impressive 82% accuracy among all the transfer learning models, setting a new benchmark for the dataset used. However, our proposed CNN model shows superior performance, achieving an accuracy of 95.27% on this dataset, surpassing the state-of-the-art Xception model. Moreover, for single-label (binary classifications), our proposed model achieved perfect accuracy as well. Through exploration of these advances, our objective is to provide a comprehensive overview of the leading methods for the early detection of DR. The aim is to discuss the challenges associated with these methods and highlight potential enhancements. In essence, this paper provides a high-level perspective on the integration of deep learning techniques and machine learning models, coupled with explainable artificial intelligence (XAI) and gradient-weighted class activation mapping (Grad-CAM). We present insights into their respective accuracy and the challenges they face. We anticipate that these insights will prove valuable to researchers and practitioners in the field. Our ambition is that this in-depth study and comparison of models will inform and inspire future research endeavors, ultimately leading to enhanced disease detection in medical imaging and thereby assisting healthcare professionals.
+ER  - 
+
+TY  - JOUR
+TI  - Diabetic Retinopathy Classification Using Hybrid Color-Based CLAHE and Blood Vessel in Deep Convolution Neural Network
+T2  - IEEE Access
+SP  - 194750
+EP  - 194761
+AU  - A. J. Kadhim
+AU  - H. Seyedarabi
+AU  - R. Afrouzian
+AU  - F. S. Hasan
+PY  - 2024
+KW  - Feature extraction
+KW  - Accuracy
+KW  - Diabetic retinopathy
+KW  - Image segmentation
+KW  - Retina
+KW  - Deep learning
+KW  - Convolutional neural networks
+KW  - Biomedical imaging
+KW  - Training
+KW  - Lesions
+KW  - Diabetic retinopathy
+KW  - feature extraction
+KW  - pretrained VGG19
+KW  - pretrained InceptionV3
+KW  - contrast-limited-adaptive-histogram-equalization
+KW  - multiclass classification
+KW  - data augmentation
+DO  - 10.1109/ACCESS.2024.3519361
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 12
+VL  - 12
+JA  - IEEE Access
+Y1  - 2024
+AB  - The most widespread illness of the diabetic eye that causes missing eye vision is diabetic retinopathy (DR), which requires disclosure soon to prevent the vision loss of the sick. In this study, two features are extracted from retina images with for multiclass DR classification, which include color-based Blood Vessel (BV) segmentation and color-based Contrast-Limited-Adaptive-Histogram-Equalization-Top-Hat (CLAH-TH) segmentation. These features are integrated to enhance the accuracy of classification and detection of DR. Variant models, especially VGG19 and InceptionV3, are trained using a transfer learning approach on the proposed extracted features for DR grading. The data augmentation strategy is employed to improve the accuracy and performance of the proposed method by balancing the dataset and aligning the number of images in each class. Experimental results demonstrate that the proposed method outperforms contemporary CNN models when utilizing the suggested features. The best results obtained from experiments on the Kaggle DR database using the pretrained VGG19 model include an accuracy of 96.7%, a sensitivity of 0.971, and a specificity of 0.981.
+ER  - 
+
+TY  - JOUR
+TI  - Effective Diabetic Retinopathy Classification With Siamese Neural Network: A Strategy for Small Dataset Challenges
+T2  - IEEE Access
+SP  - 182814
+EP  - 182827
+AU  - M. Tariq
+AU  - V. Palade
+AU  - Y. Ma
+PY  - 2024
+KW  - Lesions
+KW  - Data models
+KW  - Diabetic retinopathy
+KW  - Computational modeling
+KW  - Transfer learning
+KW  - Training
+KW  - Accuracy
+KW  - Retina
+KW  - Residual neural networks
+KW  - Neural networks
+KW  - Transfer learning
+KW  - Siamese neural network
+KW  - diabetic retinopathy
+KW  - few-shot learning
+KW  - multiclass classification
+DO  - 10.1109/ACCESS.2024.3510556
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 12
+VL  - 12
+JA  - IEEE Access
+Y1  - 2024
+AB  - Early detection of diabetic retinopathy, a complication of vision loss in advanced stages of diabetes, is essential to avoid permanent vision impairment. However, the automatic detection of diabetic retinopathy through medical image processing requires a large number of training data to build a model with good performance. This poses a challenge when working with small datasets as these models need large datasets to perform well on unseen data. In this paper, we design a few-shot Siamese Neural Networks combined with pre-trained models, such as VGG16, ResNet50, and DenseNet121, to effectively differentiate between classes using small lesions in the retinal images. The proposed model is trained based on the similarity between the pair of images using a comparatively small dataset and performs well for a five-class classification problem. We use the Fine-Grained Annotated Diabetic Retinopathy (FGADR) and APTOS 2019 Vision Impairment Detection dataset, where a small ratio of training images is used to train the model. To evaluate our model, we conduct the testing on the remaining data and achieve good accuracy when trained on limited images, with fewer epochs and fewer parameters. The proposed model achieves high accuracy rates on five-class classification of 80% on FGADR and 81% on APTOS 2019 datasets, with a consistent quadratic weighted kappa (QWK) score of 0.89 across both datasets. Furthermore, we conduct an in-depth analysis of hyperparameter optimisation, specifically investigating different pair selection techniques, loss functions, and distance layers to thoroughly evaluate their impact on the performance of the model. Our proposed model demonstrates promising results when combined with an attention mechanism to perform multiclass classification of diabetic retinopathy using a limited number of eye fundus images, outperforming existing approaches with only a small number of epochs in training.
+ER  - 
+
+TY  - JOUR
+TI  - Graph-Aware Multimodal Deep Learning for Classification of Diabetic Retinopathy Images
+T2  - IEEE Access
+SP  - 74799
+EP  - 74810
+AU  - A. Zedadra
+AU  - O. Zedadra
+AU  - M. Yassine Salah-Salah
+AU  - A. Guerrieri
+PY  - 2025
+KW  - Diabetic retinopathy
+KW  - Accuracy
+KW  - Retina
+KW  - Feature extraction
+KW  - Convolutional neural networks
+KW  - Diseases
+KW  - Artificial intelligence
+KW  - Graph neural networks
+KW  - Adaptation models
+KW  - Medical diagnostic imaging
+KW  - Classification
+KW  - convolutional neural network (CNN)
+KW  - diabetes
+KW  - diabetic retinopathy (DR)
+KW  - graph neural network (GNN)
+DO  - 10.1109/ACCESS.2025.3564529
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 13
+VL  - 13
+JA  - IEEE Access
+Y1  - 2025
+AB  - Diabetic Retinopathy (DR) is one of the leading causes of blindness worldwide, where early detection is critical to preventing irreversible vision loss. Traditional diagnostic methods primarily rely on single-modality data, such as retinal images, or the analysis of image features, which may limit diagnostic accuracy. To overcome these limitations, we propose Diabetic Retinopathy Diagnosis, namely “DRdiag”, a novel model proposed for the early diagnosis of DR. DRdiag integrates multiple modalities: the Fundus images and the duration of disease evolution which is an important factor in the diagnosis of DR as the duration of the disease directly influences the onset and progression of retinal lesions, leveraging two distinct models: a Convolutional Neural Network (CNN) based on DenseNet121 for image feature extraction and a Graph Neural Network (GNN) for capturing complex relationships between patient features. By combining the strengths of these advanced models, DRDiag aims to provide a more comprehensive and accurate diagnostic system, ultimately supporting timely intervention and improved patient outcomes. The experiments are conducted using two datasets, APTOS2019 and Messidor-2, which provide diverse retinal images for robust evaluation. The proposed model achieves high performance on diabetic retinopathy classification. On Messidor-2, it attains 0.976 accuracy, 0.957 kappa, 0.961 F1-score, 0.958 recall, 0.965 precision, and 0.990 specificity. On APTOS2019, it achieves 0.980 accuracy, 0.960 kappa, 0.963 F1-score, 0.959 recall, 0.968 precision, and 0.995 specificity. These results confirm its robustness and reliability.
+ER  - 
+
+TY  - JOUR
+TI  - Enhancing Medical Image Classification Through PSO-Optimized Dual Deterministic Approach and Robust Transfer Learning
+T2  - IEEE Access
+SP  - 177144
+EP  - 177159
+AU  - A. Raza
+AU  - S. Bin Musa
+AU  - A. Shahrafidz Bin Khalid
+AU  - M. Mansoor Alam
+AU  - M. Mohd Su'ud
+AU  - F. Noor
+PY  - 2024
+KW  - Accuracy
+KW  - Brain modeling
+KW  - Magnetic resonance imaging
+KW  - Feature extraction
+KW  - Image classification
+KW  - Medical diagnostic imaging
+KW  - Transfer learning
+KW  - Deep learning
+KW  - Training
+KW  - Diabetic retinopathy
+KW  - PSO optimization
+KW  - transfer learning
+KW  - diabetic retinopathy
+KW  - mobile net
+KW  - robust model
+KW  - medical image classification
+DO  - 10.1109/ACCESS.2024.3504266
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 12
+VL  - 12
+JA  - IEEE Access
+Y1  - 2024
+AB  - Effective transfer learning, within medical image classification, is probably one of the most critical areas of research due to the associated complexities with the nature of medical images. These involve variations in the acquisition techniques of images, resolutions, modalities, and patient demographics. This study aims to develop a robust transfer learning model by combining Mobile-Net with Particle Swarm Optimization, called MOB-CFPSO that classifies efficiently variety of datasets across heterogenic dataset modalities, including colored, black, and white datasets. A high-performing machine learning model needs enough data to enable robust feature extraction that can identify patterns in each class, allowing the model to differentiate between different classes accurately. The current statistical algorithm is less effective in the case of colored and black image classification and they also produce errors in the classification of findings of obvious disease in heterogenic image datasets e.g. color, Black, and white. There is a need to design and implement a robust image classification model based on heterogenic datasets that will reduce the error rate and optimize classification accuracy by using the Transfer Learning technique. Model robustness in deep learning refers to the capacity to sustain performance and deliver accurate predictions, even in the face of uncertainties, disturbances, or adversarial conditions. Two separate experiments are conducted on a pre-trained Mobile-Net model along with Modified PSO with constriction factor for model optimization, accuracy enhancement, and reduction of error rate for disease classification on two distinct datasets. DR Dataset comprised 10 distinct, whereas the MRI brain tumor included 8 various classes. The results showed that the proposed Model MOB-CFPSO exceeds the state-of-the-art algorithm in datasets, achieving high accuracy, robustness, precision, recall, and F1-score, with acceptable and favorable validation loss. A comprehensive MRI study showed that the MOB-CFPSO achieved 100% and 99.86% of training and validation accuracy respectively, with 0.0071% and 0.0071% of validation and training loss. However, Precision, Recall, and F1 scores were 100%, 100%, and 100%, respectively. DR Dataset achieved 95.09% and 97.66% of training and validation accuracy respectively whereas validation loss was 0.1902%, and training loss was 0.2469%. Precision, Recall, and F1 score were 98.3%, 92.4%, and 95.3% respectively.
+ER  - 
+
+TY  - JOUR
+TI  - Enhancing Early-Stage Diabetic Retinopathy Detection Using a Weighted Ensemble of Deep Neural Networks
+T2  - IEEE Access
+SP  - 113565
+EP  - 113579
+AU  - K. Nazir
+AU  - J. Kim
+AU  - Y. -C. Byun
+PY  - 2024
+KW  - Retina
+KW  - Accuracy
+KW  - Diabetic retinopathy
+KW  - Feature extraction
+KW  - Biomedical imaging
+KW  - Deep learning
+KW  - Solid modeling
+KW  - Diabetic retinopathy
+KW  - retinal fundus images
+KW  - multi-class classification
+KW  - deep learning
+KW  - weighted average ensemble
+DO  - 10.1109/ACCESS.2024.3432867
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 12
+VL  - 12
+JA  - IEEE Access
+Y1  - 2024
+AB  - Diabetic Retinopathy (DR) is one of the biggest reasons for vision loss. It is a fatal eye disease damaging the retina, which is the light-sensitive tissue in the rear of the eye. Ophthalmologists use fundus images to capture retinal inner structures to find broken blood vessels and scars. To detect DR on time, early diagnosis is very important which is often not possible due to complex procedures. Therefore, automation of DR detection can solve this problem. Accessibility to regular examinations and specialized eye care remains a challenge, especially in underserved areas, due to late diagnosis, a lack of healthcare infrastructure, and other factors. Although automated detection and grading of diabetic retinopathy from retinal images has shown promising results, challenges arise to accomplish high accuracy, particularly in hidden or early-stage DR situations. One of the major limitations in developing a detection model is the lack of imaging datasets as it requires a large number of images to train the model more accurately. Deep transfer learning-based models have shown promising results especially when datasets are not very large. This study used a weighted average ensemble approach to combine three different deep learning models: inception-v3, VGG16, and a custom-built convolutional neural network. The proposed weighted average ensemble approach achieved an accuracy of 95.06%, a precision of 87.88%, a recall of 83.78%, f1-score of 85.69%, and a 98.10% area under the curve which is higher compared to other pre-trained models. A comprehensive comparative analysis is done to compare the proposed approach with other state-of-the-art methods. The proposed system is efficient, considerably accurate, and can aid as a clinical assistant to detect and grade diabetic retinopathy.
+ER  - 
+
+TY  - JOUR
+TI  - A Lightweight Robust Deep Learning Model Gained High Accuracy in Classifying a Wide Range of Diabetic Retinopathy Images
+T2  - IEEE Access
+SP  - 42361
+EP  - 42388
+AU  - M. A. K. Raiaan
+AU  - K. Fatema
+AU  - I. U. Khan
+AU  - S. Azam
+AU  - M. R. U. Rashid
+AU  - M. S. H. Mukta
+AU  - M. Jonkman
+AU  - F. De Boer
+PY  - 2023
+KW  - Retina
+KW  - Diabetes
+KW  - Feature extraction
+KW  - Convolutional neural networks
+KW  - Computational modeling
+KW  - Biomedical imaging
+KW  - Neural  networks
+KW  - Transfer learning
+KW  - Diabetic retinopathy
+KW  - retinal fundus images
+KW  - multi-class classification
+KW  - image preprocessing
+KW  - augmentation
+KW  - convolutional neural network
+KW  - transfer learning models
+KW  - model optimization
+KW  - k-fold cross validation
+DO  - 10.1109/ACCESS.2023.3272228
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 11
+VL  - 11
+JA  - IEEE Access
+Y1  - 2023
+AB  - Diabetic retinopathy (DR) is a common complication of diabetes mellitus, and retinal blood vessel damage can lead to vision loss and blindness if not recognized at an early stage. Manual DR detection using large fundus image data is time-consuming and error-prone. An effective automatic DR detection system can be significantly faster and potentially more accurate. This study aims to classify fundus images into five DR classes, using deep learning methods, with the highest possible accuracy and the lowest possible computational time. Three distinct DR datasets, APTOS, Messidor2, and IDRiD, are merged, resulting in 5,819 raw images. Before training the model, various image preprocessing techniques are applied to remove artifacts and noise from the images and improve their quality. Three augmentation techniques: geometric, photometric, and elastic deformation, are used to create a balanced dataset. A shallow convolutional neural network (CNN) is developed using three blocks of convolutional layers and maxpool layers with a categorical cross-entropy loss function, Adam optimizer, 0.0001 learning rate, and 64 batch size as a base model, and this is also employed to determine the best data augmentation method for further processing. A study to optimize the performance is then conducted by changing different components and hyperparameters of the base model, resulting in our proposed RetNet-10 model. Six cutting-edge models are employed for comparison. Our proposed RetNet-10 model performed the best, with a testing accuracy of 98.65%. MobileNetV2, VGG16, Xception, VGG19, InceptionV3 and ResNet50 achieved testing accuracies of 91.42%, 90.16%,89.57%, 88.21%, 87.68% and 87.23%, respectively. The model is also trained with several k values to assess its robustness. After image processing and data augmentation, using the combined dataset, and fine-tuning the base model, our proposed RetNet-10 model outperformed other automated methods for DR diagnosis.
+ER  - 
+
+TY  - JOUR
+TI  - CAD-ViT: Coordinate Attention-Enhanced Vision Transformer With Dilated Feature Fusion for Diabetic Retinopathy Staging
+T2  - IEEE Access
+SP  - 91505
+EP  - 91514
+AU  - Y. Wang
+AU  - X. Gou
+AU  - W. Li
+PY  - 2025
+KW  - Feature extraction
+KW  - Accuracy
+KW  - Lesions
+KW  - Transformers
+KW  - Retina
+KW  - Diabetic retinopathy
+KW  - Convolutional neural networks
+KW  - Biological system modeling
+KW  - Training
+KW  - Computational modeling
+KW  - Diabetic retinopathy
+KW  - automatic classification and grading
+KW  - vision transformer
+KW  - multi-scale dilated convolutions
+KW  - visual attention module
+DO  - 10.1109/ACCESS.2025.3572455
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 13
+VL  - 13
+JA  - IEEE Access
+Y1  - 2025
+AB  - Automatic Diabetic Retinopathy classification is crucial as it aids in determining the disease stage, enabling timely treatment to prevent progression to low vision and significantly reducing the diagnostic burden on ophthalmologists. Efficient and accurate network models are essential for clinical applications. In this paper, we propose a deep learning method for DR diagnosis and grading based on multi-scale feature fusion and attention guidance. This approach employs dilated convolutions with varying dilation rates to expand the receptive field and integrate features at multiple scales. Additionally, an attention mechanism based on spatial directional feature aggregation is embedded in the inverted residual modules to guide the model to focus on critical lesion features in fundus images. Furthermore, transformers are utilized to extract global features, enhancing model performance. Experiments conducted on the APTOS-2019 and DDR datasets demonstrate that our method achieves a diagnostic accuracy of 99.2% and grading accuracy of 88.6% on the APTOS-2019 dataset, and a grading accuracy of 84.8% on the DDR dataset. Experimental results show that the proposed method performs excellently and outperforms many recently proposed popular DR diagnosis and classification methods.
+ER  - 
+
+TY  - JOUR
+TI  - EffNet-SVM: A Hybrid Model for Diabetic Retinopathy Classification Using Retinal Fundus Images
+T2  - IEEE Access
+SP  - 79793
+EP  - 79804
+AU  - K. V. Naveen
+AU  - B. N. Anoop
+AU  - K. S. Siju
+AU  - M. K. Kar
+AU  - V. Venugopal
+PY  - 2025
+KW  - Accuracy
+KW  - Retina
+KW  - Artificial intelligence
+KW  - Feature extraction
+KW  - Support vector machines
+KW  - Training
+KW  - Computational modeling
+KW  - Visualization
+KW  - Solid modeling
+KW  - Convolutional neural networks
+KW  - Diabetic retinopathy
+KW  - deep features
+KW  - EfficientNet
+KW  - hybrid CNN
+KW  - support vector machines
+KW  - transfer learning
+DO  - 10.1109/ACCESS.2025.3566073
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 13
+VL  - 13
+JA  - IEEE Access
+Y1  - 2025
+AB  - The manual diagnosis of diabetic retinopathy (DR) is often invasive, time-consuming, expensive, and prone to human error. Additionally, it can be subjective, depending on the clinician’s professional experience. Recently, automated computer-aided diagnosis (CAD) systems have significantly reduced the time and effort required for diagnosis while achieving superior performance compared to traditional methods. Researchers have extensively explored deep learning (DL) and convolutional neural networks (CNNs) for diagnosing DR from fundus images, yielding promising results and offering a viable alternative to conventional diagnostic approaches. In this study, a hybrid model named EffNet-SVM is proposed for the classification of DR and no DR cases using retinal fundus images. The model is trained and tested using the Asia Pacific Tele-Ophthalmology Society (APTOS) dataset, which includes both DR and no DR images. The EffNet-SVM utilizes EfficientNetV2-Small for feature extraction from input fundus images, and the extracted features are then classified using a support vector machine (SVM) with a radial basis function (RBF) kernel. The EffNet-SVM model outperformed eight state-of-the-art DL models from the literature, achieving the highest accuracy of 97.26%. Performance metrics validate that the proposed hybrid model can be effectively integrated into CAD systems for the automated analysis of fundus images.
+ER  - 
+
+TY  - JOUR
+TI  - Internet of Things and Deep Learning Enabled Diabetic Retinopathy Diagnosis Using Retinal Fundus Images
+T2  - IEEE Access
+SP  - 27590
+EP  - 27601
+AU  - T. Palaniswamy
+AU  - M. Vellingiri
+PY  - 2023
+KW  - Internet of Things
+KW  - Retina
+KW  - Diabetes
+KW  - Feature extraction
+KW  - Optimization
+KW  - Solid modeling
+KW  - Retinopathy
+KW  - Computer aided diagnosis
+KW  - deep learning
+KW  - diabetic retinopathy
+KW  - fundus images
+KW  - honey bee optimization
+DO  - 10.1109/ACCESS.2023.3257988
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 11
+VL  - 11
+JA  - IEEE Access
+Y1  - 2023
+AB  - Recently, the Internet of Things (IoT) and computer vision technologies find useful in different applications, especially in healthcare. IoT driven healthcare solutions provide intelligent solutions for enabling substantial reduction of expenses and improvisation of healthcare service quality. At the same time, Diabetic Retinopathy (DR) can be described as permanent blindness and eyesight damage because of the diabetic condition in humans. Accurate and early detection of DR could decrease the loss of damage. Computer-Aided Diagnoses (CAD) model based on retinal fundus image is a powerful tool to help experts diagnose DR. Some traditional Machine Learning (ML) based DR diagnoses model has currently existed in this study. The recent developments of Deep Learning (DL) and its considerable achievement over conventional ML algorithms for different applications make it easier to design effectual DR diagnosis model. With this motivation, this paper presents a novel IoT and DL enabled diabetic retinopathy diagnosis model (IoTDL-DRD) using retinal fundus images. The presented Internet of Things Deep Learning – Diabetic Retinopathy Diagnosis (IoTDL-DRD) technique utilizes IoT devices for data collection purposes and then transfers them to the cloud server to process them. Followed by, the retinal fundus images are preprocessed to remove noise and improve contrast level. Next, mayfly optimization based region growing (MFORG) based segmentation technique is utilized to detect lesion regions in the fundus image. Moreover, densely connected network (DenseNet) based feature extractor and Long Short Term Memory (LSTM) based classifier is used for effective DR diagnosis. Furthermore, the parameter optimization of the LSTM method can be carried out by Honey Bee Optimization (HBO) algorithm. For evaluating the improved DR diagnostic outcomes of the IoTDL-DRD technique, a comprehensive set of simulations were carried out. A wide ranging comparison study reported the superior performance of the proposed method.
+ER  - 
+
+TY  - JOUR
+TI  - Enhancing Ocular Healthcare: Deep Learning-Based Multi-Class Diabetic Eye Disease Segmentation and Classification
+T2  - IEEE Access
+SP  - 137881
+EP  - 137898
+AU  - M. Vadduri
+AU  - P. Kuppusamy
+PY  - 2023
+KW  - Retina
+KW  - Image segmentation
+KW  - Diabetes
+KW  - Feature extraction
+KW  - Optical imaging
+KW  - Training
+KW  - Optical sensors
+KW  - Deep learning
+KW  - Convolutional neural networks
+KW  - Eyes
+KW  - Diseases
+KW  - Deep convolutional neural network
+KW  - diabetic eye diseases
+KW  - image enhancement
+KW  - image segmentation
+KW  - retinal fundus images
+DO  - 10.1109/ACCESS.2023.3339574
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 11
+VL  - 11
+JA  - IEEE Access
+Y1  - 2023
+AB  - Diabetic Eye Disease (DED) is a serious retinal illness that affects diabetics. The timely identification and precise categorization of multi-class DED within retinal fundus images play a pivotal role in mitigating the risk of vision loss. The development of an effective diagnostic model using retinal fundus images relies significantly on both the quality and quantity of the images. This study proposes a comprehensive approach to enhance and segment retinal fundus images, followed by multi-class classification employing pre-trained and customized Deep Convolutional Neural Network (DCNN) models. The raw retinal fundus dataset was subjected to experimentation using four pre-trained models: ResNet50, VGG-16, Xception, and EfficientNetB7, and the optimal performing model EfficientNetB7 was acquired. Then, image enhancement approaches including the green channel extraction, applying Contrast-Limited Adaptive Histogram Equalization (CLAHE), and illumination correction, were employed on these raw images. Subsequently, image segmentation methods such as the Tyler Coye Algorithm, Otsu thresholding, and Circular Hough Transform are employed to extract essential Region of Interest (ROIs) like optic nerve, Blood Vessels (BV), and the macular region from the raw ocular fundus images. After preprocessing, the model is trained using these images that outperformed the four pre-trained models and the proposed customized DCNN model. The proposed DCNN methodology holds promising results for the Cataract (CA), Diabetic Retinopathy (DR), Glaucoma (GL), and NORMAL detection tasks, achieving accuracies of 96.43%, 98.33%, 97%, and 96%, respectively. The experimental evaluations highlighted the efficacy of the proposed approach in achieving accurate and reliable multi-class DED classification results, showcasing the promising potential for early diagnosis and personalized treatment. This contribution could lead to improved healthcare outcomes for diabetic patients.
+ER  - 
+
+TY  - JOUR
+TI  - DualEye-FeatureNet: A Dual-Stream Feature Transfer Framework for Multi-Modal Ophthalmic Image Classification
+T2  - IEEE Access
+SP  - 143985
+EP  - 144008
+AU  - M. Shafiq
+AU  - Q. Fan
+AU  - F. H. Alghamedy
+AU  - W. J. Obidallah
+PY  - 2024
+KW  - Glaucoma
+KW  - Deep learning
+KW  - Retina
+KW  - Cataracts
+KW  - Accuracy
+KW  - Eye diseases
+KW  - Diabetic retinopathy
+KW  - Convolutional neural networks
+KW  - Feature extraction
+KW  - Training
+KW  - DualEye-FeatureNet
+KW  - multi-modal ophthalmic image classification
+KW  - Fuzzy C-Means
+KW  - K-Means DarkNet53 and ResNet101
+DO  - 10.1109/ACCESS.2024.3469244
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 12
+VL  - 12
+JA  - IEEE Access
+Y1  - 2024
+AB  - Eye diseases are a significant health issue due to the drastic increase in the use of digital gadgets and mobile devices, making early detection and intervention essential for effective treatment. In recent times, the multimodal imagery fusion approach has garnered growing interest in automated disease detection for various eye disorders (Glaucoma, Cataracts, Diabetic Retinopathy (DR), Myopia, and Macular Degeneration (MD)). In this work, we propose a reliable, multi-modal, automated eye disease classification method using a novel fully automated DL framework called DualEye-FeatureNet. The proposed framework is a dual-stream deep learning architecture that combines complementary deep neural network models (DarkNet53 and ResNet101) with standard clustering techniques (Fuzzy C-means and K-means) to exploit features from OCT images and fundus images. The integrated form of two parallel stream of features is fed to the unique 3D-CNN for discrimination of eye diseases classification. Experimental results demonstrate the potential of the dual-stream model in capturing not only structural elements but also the spatial relationships of features in complex OCT and fundus images, effectively improving both performance and generalizability over state-of-art individual-modality approaches. The multi-modal ophthalmic image classification accuracies of 94% for Glaucoma, 92% of Cataracts, 95% for DR, 93% of Myopia and 91% for MD were obtained, respectively. The proposed architecture overcomes the limitation of single-modality diagnosis and significantly emerges as a novel fully automated deep learning framework.
+ER  - 
+
+TY  - JOUR
+TI  - A Novel Transformer-CNN Hybrid Deep Learning Architecture for Robust Broad-Coverage Diagnosis of Eye Diseases on Color Fundus Images
+T2  - IEEE Access
+SP  - 156285
+EP  - 156300
+AU  - C. Rieck
+AU  - C. Mai
+AU  - L. Eisentraut
+AU  - R. Buettner
+PY  - 2025
+KW  - Eye diseases
+KW  - Accuracy
+KW  - Transformers
+KW  - Feature extraction
+KW  - Glaucoma
+KW  - Computer architecture
+KW  - Retina
+KW  - Convolutional neural networks
+KW  - Image color analysis
+KW  - Robustness
+KW  - Eye disease
+KW  - color fundus images
+KW  - deep learning
+KW  - convolutional neural network
+KW  - EfficientNet
+KW  - Swin Transformer V2
+KW  - multiclass classification
+KW  - fundus images
+KW  - hybrid architecture
+DO  - 10.1109/ACCESS.2025.3606334
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 13
+VL  - 13
+JA  - IEEE Access
+Y1  - 2025
+AB  - We present a novel and robust deep-learning architecture that takes into account the pathological characteristics of eye diseases on color fundus images. The proposed hybrid architecture is capable of accurately recognizing the local features on the one hand and detecting the peripheral abnormalities of the specific eye disease on the other, and diagnosing the respective eye disease on this basis. The hybrid architecture provides robust local feature extraction and enhances global contextual understanding via hierarchical self-attention mechanisms. In contrast to previous models, which were limited to binary or poorly differentiated classification tasks, our approach considers the most clinically relevant eye diseases (here 9 diseases), including central serous chorioretinopathy (CSCR), diabetic retinopathy (DR), disc edema, glaucoma, macular scar, myopia, pterygium, retinal detachment, and retinitis pigmentosa (RP). The architecture was validated using a peer-reviewed real-world dataset and stratified 5-fold cross-validation. It achieved an average balanced accuracy of 81.91%, an average accuracy and True Positive Rate (TPR) of 76.40%, and a True Negative Rate (TNR) of 95.60% across all classes. For individual diseases, the model reached an TPR of 88.93% for DR, 89.93% for RP, and 61.23% for Glaucoma. The results show that the architecture is powerful and can distinguish between the 10 different classes (9 disease classes + healthy class). This makes it particularly suitable for pre-screening applications in telemedicine, for screening programs at the population level, and for integration into clinical decision support systems.
+ER  - 
+
+
